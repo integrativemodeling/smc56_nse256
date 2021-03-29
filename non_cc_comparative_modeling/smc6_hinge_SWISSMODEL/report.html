@@ -1,0 +1,2325 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>smc6_hinge | Report</title>
+    <meta name="description" content="SWISS-MODEL modelling results for smc6_hinge." />
+    <link rel="stylesheet" type="text/css" href="js/jquery.fancybox.css"/>
+    <style>
+			.sequence { font-size: 12px; font-family:"Courier New", Courier, monospace;}
+			h2 {font-size: 1.2em; font-family:Arial; margin:20 0 0 0}
+			h3 {font-size: 1.0em; font-family:Arial; margin:0 0 0 0}
+			
+			.borderedTbl>tbody>tr>td, .borderedTbl th{ 
+        text-align:center;
+  			border-top:1px solid #DDD;
+  			border-left:1px solid #DDD;
+      }
+      .borderedTbl{
+        border-bottom:1px solid #DDD;
+        border-right:1px solid #DDD; 
+      }
+      td { 
+        -webkit-hyphens: auto;
+           -moz-hyphens: auto;
+                hyphens: auto; 
+              }
+
+			body {
+			width:100%; 
+			height:100%; 
+			background-color: #E7E8EA;
+			margin: 0;
+			padding: 0;
+			word-wrap: break-word;
+			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 14px;
+
+			}
+			#content{
+			padding:20px;
+			width:780px;
+			margin-left:auto;
+			margin-right:auto;
+			background-color:#FFF;}
+			
+			#sib_footer {
+			background-color: #333333;
+			color: #F7F8FA;
+			font-family: Verdana;
+			font-size: 10px;
+			font-weight: normal;
+			height: 20px;
+			letter-spacing: 1px;
+			
+			width:760px;
+      margin-left:auto;
+      margin-right:auto;
+      padding:0px 20px 0px 20px
+			}
+			
+			#sib_footer a {
+  			color: #FFFFFF;
+  			font-family: Verdana;
+  			font-size: 10px;
+  			font-weight: normal;
+  			letter-spacing: 1px;
+			}
+			a, a:link, a:visited {
+			color: #D6161D;
+			text-decoration: none;
+			} 	
+
+			.alTbl{ font-family:'Courier New', Courier, monospace; }
+	   img{ border:0; }
+			
+	@media print{
+	
+	#content{
+			padding:20px;
+			background-color:#FFF;
+		}
+	body{ 
+	    width:100%;
+	    height:100%; 
+	    background-color: #FFF;
+			padding: 0;
+		}	
+	#sib_footer{
+		display:none;
+	}
+	}
+      
+    </style>
+  </head>
+  <body>
+  
+  <div id="content">
+  	<table border=0 width="100%">
+  		<tr>
+    		<td valign="middle">
+  			<a title="SIB Swiss Institute of Bioinformatics" href="https://www.sib.swiss">
+  			<img src="images/sib_ExPASy_logo_small.png"></a>
+  		</td>
+  		<td valign="middle">
+  			<a title="Biozentrum, University of Basel" href="https://www.biozentrum.unibas.ch">
+  			<img src="images/biozentrum_en.png"></a>
+  		</td>
+		  <td valign="middle"><div style="font-size:1.9em;">SWISS-MODEL Homology Modelling Report</div> </td>
+	 </tr>
+	</table> 
+    
+  <div style="clear:both"></div>
+
+
+ 
+  <h2>Model Building Report</h2>
+  <p>
+This document lists the results for the homology modelling project &quot;smc6_hinge&quot; submitted to SWISS-MODEL workspace
+on June 2, 2020, 8:35 a.m..The submitted primary amino acid sequence is given in Table T1.</p>
+<p>If you use any results in your research, please cite the relevant publications:</p>
+<ul>
+  <li>Waterhouse, A., Bertoni, M., Bienert, S., Studer, G., Tauriello, G., Gumienny, R.,
+      Heer, F.T., de Beer, T.A.P., Rempfer, C., Bordoli, L., Lepore, R., Schwede, T.   
+      SWISS-MODEL: homology modelling of protein structures and complexes.
+      Nucleic Acids Res. 46(W1), W296-W303 (2018).
+    <a href="https://www.ncbi.nlm.nih.gov/pubmed/29788355"
+       target="_blank"><img src="images/pubmed.jpg
+                                 "
+                            width="17" height="16" align="absmiddle"></a>
+    <a href="https://dx.doi.org/10.1093/nar/gky427"
+       target="_blank"><img src="images/doi.jpg
+                                 "
+                            width="30" height="16" align="absmiddle"
+                            style="padding-left:2px"></a>
+  </li>
+      <li><a name="promodII"></a>Guex, N., Peitsch, M.C., Schwede, T. Automated
+          comparative protein structure modeling with SWISS-MODEL and
+          Swiss-PdbViewer: A historical perspective. Electrophoresis 30,
+          S162-S173 (2009).
+    <a href="https://www.ncbi.nlm.nih.gov/pubmed/19517507"
+       target="_blank"><img src="images/pubmed.jpg
+                                 "
+                            width="17" height="16" align="absmiddle"></a>
+    <a href="https://dx.doi.org/10.1002/elps.200900140"
+       target="_blank"><img src="images/doi.jpg
+                                 "
+                            width="30" height="16" align="absmiddle"
+                            style="padding-left:2px"></a>
+  </li>
+  <li>Bienert, S., Waterhouse, A., de Beer, T.A.P., Tauriello, G., Studer,
+    G., Bordoli, L., Schwede, T. The SWISS-MODEL Repository - new features and
+    functionality. Nucleic Acids Res. 45, D313-D319 (2017).
+    <a href="https://www.ncbi.nlm.nih.gov/pubmed/27899672"
+       target="_blank"><img src="images/pubmed.jpg
+                                 "
+                            width="17" height="16" align="absmiddle"></a>
+    <a href="https://dx.doi.org/10.1093/nar/gkw1132"
+       target="_blank"><img src="images/doi.jpg
+                                 "
+                            width="30" height="16" align="absmiddle"
+                            style="padding-left:2px"></a>
+  </li>
+  <li><a name="qmean"></a>Studer, G., Rempfer, C., Waterhouse, A.M., 
+    Gumienny, G., Haas, J., Schwede, T. QMEANDisCo - distance constraints 
+    applied on model quality estimation. Bioinformatics 36, 1765-1771 (2020).
+    <a href="https://www.ncbi.nlm.nih.gov/pubmed/31697312"
+       target="_blank"><img src="images/pubmed.jpg
+                                 "
+                            width="17" height="16" align="absmiddle"></a>
+    <a href="https://dx.doi.org/10.1093/bioinformatics/btz828"
+       target="_blank"><img src="images/doi.jpg
+                                 "
+                            width="30" height="16" align="absmiddle"
+                            style="padding-left:2px"></a>
+  </li>
+  <li><a name="qsqe"></a>Bertoni, M., Kiefer, F., Biasini, M., Bordoli, L.,
+    Schwede, T. Modeling protein quaternary structure of homo- and
+    hetero-oligomers beyond binary interactions by homology. Scientific
+    Reports 7 (2017).
+    <a href="https://www.ncbi.nlm.nih.gov/pubmed/28874689"
+       target="_blank"><img src="images/pubmed.jpg
+                                 "
+                            width="17" height="16" align="absmiddle"></a>
+    <a href="https://dx.doi.org/10.1038/s41598-017-09654-8"
+       target="_blank"><img src="images/doi.jpg
+                                 "
+                            width="30" height="16" align="absmiddle"
+                            style="padding-left:2px"></a>
+  </li>
+</ul>
+
+<h2>Results</h2>
+<p>
+The SWISS-MODEL template library (SMTL version 2020-05-27, PDB release 2020-05-22) was searched with 
+BLAST (<a href="#blastp">Camacho et al.</a>) and HHBlits (<a href="#hhblits">Remmert et al.</a>) 
+
+ for evolutionary related structures matching the target sequence in Table T1. For details on the template search, see Materials and Methods. Overall 50 templates were found (Table T2).</p>
+
+
+<h2>Models</h2>
+
+
+<p>The following models were built (see Materials and Methods "Model Building"):</p>
+
+
+      
+
+
+      <table class="borderedTbl" width="100%" border=0 cellspacing=1 cellpadding=5>
+  		<thead>
+        <tr>
+        <th><h3>Model #03</h3></th>
+        <th>File</th>
+        <th>Built with</th>
+        <th>Oligo-State</th>
+        <th>Ligands</th>
+        <th title="Global Model Quality Estimate">GMQE</th>
+        <th>QMEAN</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><a href="model/03/03.png" target="_blank"><img height="60" src="model/03/03.png"></a>
+  </td>
+  	    <td><a href="model/03/model.pdb" target="_blank">PDB</a></td>
+  		<td>ProMod3 3.0.0</td>
+        <td>monomer </td>
+        <td>
+          <div style="max-width:350px;">None
+          </div>
+        </td>
+        <td>0.63</td>
+        <td>-1.85</td>
+      </tr>
+     </table>
+  	
+  	<table width="100%" cellspacing=5>
+  	<tr>
+  	    <td width="30%">
+       	 <table id="qmeanGlobalTbl03"></table>
+        </td>
+          <td width="33%">
+            <a href="#lq-chart-03" rel="lq-03" class="fancybox">
+              <div id="lq-chart-03-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="lq-chart-03" style="display:none"></div>
+          </td>
+
+          <td width="33%">
+            <a href="#qn-chart-03" class="fancybox">
+              <div id="qn-chart-03-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="qn-chart-03" style="display:none"></div>
+          </td>
+  	 </tr>
+  	</table>
+
+
+  	<table class="borderedTbl">
+  		<thead>
+  			<tr>
+  				<th>Template</th>
+  				<th>Seq Identity</th>
+  				<th>Oligo-state</th>
+  				<th>QSQE</th>
+  				<th>Found by</th>
+  				<th>Method</th>
+  				<th>Resolution</th>
+  				<th>Seq Similarity</th>
+  				<th>Range</th>
+  				<th>Coverage</th>
+  				<th>Description</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+        
+        
+        <tr>
+  				<td>
+                
+              <a href="model/03/templates/5mg8.1.B.pdb.gz" target="_blank">5mg8.1.B</a>
+                
+              
+          </td>
+  				<td>28.02</td>
+  				<td>monomer</td>
+  				<td>0.00</td>
+  				<td>HHblits</td>
+  				<td>X-ray</td>
+  				<td>2.75&Aring;</td>
+  				<td>0.36</td>
+  				<td>3 - 189
+
+        </td>
+  				<td>0.96</td>
+  				<td>Structural maintenance of chromosomes protein 6</td>
+  			</tr>
+  		</tbody>
+  	</table> 
+  	
+    
+
+    
+
+  
+    <br>
+    <h3>Excluded ligands</h3>
+    <table width="100%" class="borderedTbl">
+      <thead>
+        <tr>
+          <th>Ligand Name.Number</th>
+          <th>Reason for Exclusion</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+    <tbody>
+    
+      
+      <tr><td>GOL.3</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">GLYCEROL</div></td>
+      </tr>
+      
+      <tr><td>GOL.5</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">GLYCEROL</div></td>
+      </tr>
+      
+    
+      
+      <tr><td>SO4.1</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">SULFATE ION</div></td>
+      </tr>
+      
+      <tr><td>SO4.2</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">SULFATE ION</div></td>
+      </tr>
+      
+      <tr><td>SO4.4</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">SULFATE ION</div></td>
+      </tr>
+      
+    
+		</tbody>
+	</table>
+  
+
+<br>
+
+
+<pre>Target    DTFLMNFDRNMDRLLRTIEQRKNEFETPAIGPLGSLVTIRKGFEKWTRSIQRAISSSLNAFVVSNPKDNRLFRDIMRSCG<br>5mg8.1.B  --KVSAFGKNMPQLLKLIT-RETRFQHPPKGPMGKYMTVKE--QKWHLIIERILGNVINGFIVRSHHDQLILKELMRQSN<br><br>Target    IRSNIPIVTYCLSQFDYSKGRAHGNYPTIVDALEFSKPEIECLFVDLSRIERIVLIEDKNEARNFLQRNPVNVNMALSLR<br>5mg8.1.B  CH--ATVVVGKYDPFDYSSGEPDSQYPTVLKIIKFDDDEVLHTLINHLGIEKMLLIEDRREAEAYMKRGIANVTQCYALD<br><br>Target    DR--RSGFQLS--GGYRLDTV--TYQDKIRLKVNSS<br>5mg8.1.B  PRNRGYGFRIVSTQRSSGISKVTPWNRPPRIGFSS-<br><br></pre>
+
+
+  <br>
+  <hr><br>
+  
+
+      
+
+
+      <table class="borderedTbl" width="100%" border=0 cellspacing=1 cellpadding=5>
+  		<thead>
+        <tr>
+        <th><h3>Model #01</h3></th>
+        <th>File</th>
+        <th>Built with</th>
+        <th>Oligo-State</th>
+        <th>Ligands</th>
+        <th title="Global Model Quality Estimate">GMQE</th>
+        <th>QMEAN</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><a href="model/01/01.png" target="_blank"><img height="60" src="model/01/01.png"></a>
+  </td>
+  	    <td><a href="model/01/model.pdb" target="_blank">PDB</a></td>
+  		<td>ProMod3 3.0.0</td>
+        <td>monomer </td>
+        <td>
+          <div style="max-width:350px;">None
+          </div>
+        </td>
+        <td>0.60</td>
+        <td>-1.52</td>
+      </tr>
+     </table>
+  	
+  	<table width="100%" cellspacing=5>
+  	<tr>
+  	    <td width="30%">
+       	 <table id="qmeanGlobalTbl01"></table>
+        </td>
+          <td width="33%">
+            <a href="#lq-chart-01" rel="lq-01" class="fancybox">
+              <div id="lq-chart-01-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="lq-chart-01" style="display:none"></div>
+          </td>
+
+          <td width="33%">
+            <a href="#qn-chart-01" class="fancybox">
+              <div id="qn-chart-01-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="qn-chart-01" style="display:none"></div>
+          </td>
+  	 </tr>
+  	</table>
+
+
+  	<table class="borderedTbl">
+  		<thead>
+  			<tr>
+  				<th>Template</th>
+  				<th>Seq Identity</th>
+  				<th>Oligo-state</th>
+  				<th>QSQE</th>
+  				<th>Found by</th>
+  				<th>Method</th>
+  				<th>Resolution</th>
+  				<th>Seq Similarity</th>
+  				<th>Range</th>
+  				<th>Coverage</th>
+  				<th>Description</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+        
+        
+        <tr>
+  				<td>
+                
+              <a href="model/01/templates/5mg8.1.B.pdb.gz" target="_blank">5mg8.1.B</a>
+                
+              
+          </td>
+  				<td>31.45</td>
+  				<td>monomer</td>
+  				<td>0.00</td>
+  				<td>BLAST</td>
+  				<td>X-ray</td>
+  				<td>2.75&Aring;</td>
+  				<td>0.39</td>
+  				<td>7 - 174
+
+        </td>
+  				<td>0.84</td>
+  				<td>Structural maintenance of chromosomes protein 6</td>
+  			</tr>
+  		</tbody>
+  	</table> 
+  	
+    
+
+    
+
+  
+    <br>
+    <h3>Excluded ligands</h3>
+    <table width="100%" class="borderedTbl">
+      <thead>
+        <tr>
+          <th>Ligand Name.Number</th>
+          <th>Reason for Exclusion</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+    <tbody>
+    
+      
+      <tr><td>GOL.3</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">GLYCEROL</div></td>
+      </tr>
+      
+      <tr><td>GOL.5</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">GLYCEROL</div></td>
+      </tr>
+      
+    
+      
+      <tr><td>SO4.1</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">SULFATE ION</div></td>
+      </tr>
+      
+      <tr><td>SO4.2</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">SULFATE ION</div></td>
+      </tr>
+      
+      <tr><td>SO4.4</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">SULFATE ION</div></td>
+      </tr>
+      
+    
+		</tbody>
+	</table>
+  
+
+<br>
+
+
+<pre>Target    DTFLMNFDRNMDRLLRTIEQRKNEFETPAIGPLGSLVTIRKGFEKWTRSIQRAISSSLNAFVVSNPKDNRLFRDIMRSCG<br>5mg8.1.B  ------FGKNMPQLLKLI-TRETRFQHPPKGPMGKYMTVKE--QKWHLIIERILGNVINGFIVRSHHDQLILKELMRQSN<br><br>Target    IRSNIPIVTYCLSQFDYSKGRAHGNYPTIVDALEFSKPEIECLFVDLSRIERIVLIEDKNEARNFLQRNPVNVNMALSLR<br>5mg8.1.B  CHATVVVGKY--DPFDYSSGEPDSQYPTVLKIIKFDDDEVLHTLINHLGIEKMLLIEDRREAEAYMKRGIANVTQCYALD<br><br>Target    DRRSGFQLSGGYRLDTVTYQDKIRLKVNSS<br>5mg8.1.B  PRNRGY----GFRI----------------<br><br></pre>
+
+
+  <br>
+  <hr><br>
+  
+
+      
+
+
+      <table class="borderedTbl" width="100%" border=0 cellspacing=1 cellpadding=5>
+  		<thead>
+        <tr>
+        <th><h3>Model #02</h3></th>
+        <th>File</th>
+        <th>Built with</th>
+        <th>Oligo-State</th>
+        <th>Ligands</th>
+        <th title="Global Model Quality Estimate">GMQE</th>
+        <th>QMEAN</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><a href="model/02/02.png" target="_blank"><img height="60" src="model/02/02.png"></a>
+  </td>
+  	    <td><a href="model/02/model.pdb" target="_blank">PDB</a></td>
+  		<td>ProMod3 3.0.0</td>
+        <td>monomer </td>
+        <td>
+          <div style="max-width:350px;">None
+          </div>
+        </td>
+        <td>0.59</td>
+        <td>-2.06</td>
+      </tr>
+     </table>
+  	
+  	<table width="100%" cellspacing=5>
+  	<tr>
+  	    <td width="30%">
+       	 <table id="qmeanGlobalTbl02"></table>
+        </td>
+          <td width="33%">
+            <a href="#lq-chart-02" rel="lq-02" class="fancybox">
+              <div id="lq-chart-02-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="lq-chart-02" style="display:none"></div>
+          </td>
+
+          <td width="33%">
+            <a href="#qn-chart-02" class="fancybox">
+              <div id="qn-chart-02-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="qn-chart-02" style="display:none"></div>
+          </td>
+  	 </tr>
+  	</table>
+
+
+  	<table class="borderedTbl">
+  		<thead>
+  			<tr>
+  				<th>Template</th>
+  				<th>Seq Identity</th>
+  				<th>Oligo-state</th>
+  				<th>QSQE</th>
+  				<th>Found by</th>
+  				<th>Method</th>
+  				<th>Resolution</th>
+  				<th>Seq Similarity</th>
+  				<th>Range</th>
+  				<th>Coverage</th>
+  				<th>Description</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+        
+        
+        <tr>
+  				<td>
+                
+              <a href="model/02/templates/5mg8.2.B.pdb.gz" target="_blank">5mg8.2.B</a>
+                
+              
+          </td>
+  				<td>31.45</td>
+  				<td>monomer</td>
+  				<td>0.00</td>
+  				<td>BLAST</td>
+  				<td>X-ray</td>
+  				<td>2.75&Aring;</td>
+  				<td>0.39</td>
+  				<td>7 - 174
+
+        </td>
+  				<td>0.84</td>
+  				<td>Structural maintenance of chromosomes protein 6</td>
+  			</tr>
+  		</tbody>
+  	</table> 
+  	
+    
+
+    
+
+  
+    <br>
+    <h3>Excluded ligands</h3>
+    <table width="100%" class="borderedTbl">
+      <thead>
+        <tr>
+          <th>Ligand Name.Number</th>
+          <th>Reason for Exclusion</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+    <tbody>
+    
+      
+      <tr><td>GOL.7</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">GLYCEROL</div></td>
+      </tr>
+      
+      <tr><td>GOL.8</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">GLYCEROL</div></td>
+      </tr>
+      
+    
+      
+      <tr><td>SO4.1</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">SULFATE ION</div></td>
+      </tr>
+      
+      <tr><td>SO4.2</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">SULFATE ION</div></td>
+      </tr>
+      
+      <tr><td>SO4.3</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">SULFATE ION</div></td>
+      </tr>
+      
+      <tr><td>SO4.4</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">SULFATE ION</div></td>
+      </tr>
+      
+      <tr><td>SO4.5</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">SULFATE ION</div></td>
+      </tr>
+      
+      <tr><td>SO4.6</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">SULFATE ION</div></td>
+      </tr>
+      
+    
+		</tbody>
+	</table>
+  
+
+<br>
+
+
+<pre>Target    DTFLMNFDRNMDRLLRTIEQRKNEFETPAIGPLGSLVTIRKGFEKWTRSIQRAISSSLNAFVVSNPKDNRLFRDIMRSCG<br>5mg8.2.B  ------FGKNMPQLLKLI-TRETRFQHPPKGPMGKYMTVKE--QKWHLIIERILGNVINGFIVRSHHDQLILKELMRQSN<br><br>Target    IRSNIPIVTYCLSQFDYSKGRAHGNYPTIVDALEFSKPEIECLFVDLSRIERIVLIEDKNEARNFLQRNPVNVNMALSLR<br>5mg8.2.B  CHATVVVGKY--DPFDYSSGEPDSQYPTVLKIIKFDDDEVLHTLINHLGIEKMLLIEDRREAEAYMKRGIANVTQCYALD<br><br>Target    DRRSGFQLSGGYRLDTVTYQDKIRLKVNSS<br>5mg8.2.B  PRNRGY----GFRI----------------<br><br></pre>
+
+
+  <br>
+  <hr><br>
+  
+
+      
+
+
+      <table class="borderedTbl" width="100%" border=0 cellspacing=1 cellpadding=5>
+  		<thead>
+        <tr>
+        <th><h3>Model #09</h3></th>
+        <th>File</th>
+        <th>Built with</th>
+        <th>Oligo-State</th>
+        <th>Ligands</th>
+        <th title="Global Model Quality Estimate">GMQE</th>
+        <th>QMEAN</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><a href="model/09/09.png" target="_blank"><img height="60" src="model/09/09.png"></a>
+  </td>
+  	    <td><a href="model/09/model.pdb" target="_blank">PDB</a></td>
+  		<td>ProMod3 3.0.0</td>
+        <td>monomer </td>
+        <td>
+          <div style="max-width:350px;">None
+          </div>
+        </td>
+        <td>0.51</td>
+        <td>-3.42</td>
+      </tr>
+     </table>
+  	
+  	<table width="100%" cellspacing=5>
+  	<tr>
+  	    <td width="30%">
+       	 <table id="qmeanGlobalTbl09"></table>
+        </td>
+          <td width="33%">
+            <a href="#lq-chart-09" rel="lq-09" class="fancybox">
+              <div id="lq-chart-09-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="lq-chart-09" style="display:none"></div>
+          </td>
+
+          <td width="33%">
+            <a href="#qn-chart-09" class="fancybox">
+              <div id="qn-chart-09-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="qn-chart-09" style="display:none"></div>
+          </td>
+  	 </tr>
+  	</table>
+
+
+  	<table class="borderedTbl">
+  		<thead>
+  			<tr>
+  				<th>Template</th>
+  				<th>Seq Identity</th>
+  				<th>Oligo-state</th>
+  				<th>QSQE</th>
+  				<th>Found by</th>
+  				<th>Method</th>
+  				<th>Resolution</th>
+  				<th>Seq Similarity</th>
+  				<th>Range</th>
+  				<th>Coverage</th>
+  				<th>Description</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+        
+        
+        <tr>
+  				<td>
+                
+              <a href="model/09/templates/5mg8.1.A.pdb.gz" target="_blank">5mg8.1.A</a>
+                
+              
+          </td>
+  				<td>12.99</td>
+  				<td>monomer</td>
+  				<td>0.00</td>
+  				<td>HHblits</td>
+  				<td>X-ray</td>
+  				<td>2.75&Aring;</td>
+  				<td>0.27</td>
+  				<td>3 - 186
+
+        </td>
+  				<td>0.93</td>
+  				<td>Structural maintenance of chromosomes protein 5</td>
+  			</tr>
+  		</tbody>
+  	</table> 
+  	
+    
+
+    
+
+  
+    <br>
+    <h3>Excluded ligands</h3>
+    <table width="100%" class="borderedTbl">
+      <thead>
+        <tr>
+          <th>Ligand Name.Number</th>
+          <th>Reason for Exclusion</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+    <tbody>
+    
+      
+      <tr><td>GOL.3</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">GLYCEROL</div></td>
+      </tr>
+      
+      <tr><td>GOL.5</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">GLYCEROL</div></td>
+      </tr>
+      
+    
+      
+      <tr><td>SO4.1</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">SULFATE ION</div></td>
+      </tr>
+      
+      <tr><td>SO4.2</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">SULFATE ION</div></td>
+      </tr>
+      
+      <tr><td>SO4.4</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">SULFATE ION</div></td>
+      </tr>
+      
+    
+		</tbody>
+	</table>
+  
+
+<br>
+
+
+<pre>Target    DTFLMNF--DRNMDRLLRTIEQRKNEFETPAIGPLGSLVTIRKGFEKWTRSIQRAIS-SSLNAFVVSNPKDNRLFRDIMR<br>5mg8.1.A  --FMSSAPGWEDAYQTYQLLKEYESAFEAPAYGPIYMNLKCKE--KGFAALIEGFFRTDTFRTFIMSNYNDYLKLMDLIT<br><br>Target    SCGIRSNIPIVTYCLS---QF-DYSKGRA-----HGNYPTIVDALEFSKPEIECLFVDLSRIERIVLIEDKNEARNFLQ-<br>5mg8.1.A  SKTKY-TPTIREFSSERKKKIEDFEPPCSREKLQSFGFDGYVIDFLEGPEVVLVALCHMLKIHQIPIAKR-ELPPASVNA<br><br>Target    -RN------PVNVNMALSLRDRRSGFQLS---GGYR-LDTV--TYQDKIRLKVNSS<br>5mg8.1.A  LNNFRLANGDPVLKTYLAGSS---IHLVFRSAYGDREITRRTDPLPSRSIYF----<br><br></pre>
+
+
+  <br>
+  <hr><br>
+  
+
+      
+
+
+      <table class="borderedTbl" width="100%" border=0 cellspacing=1 cellpadding=5>
+  		<thead>
+        <tr>
+        <th><h3>Model #10</h3></th>
+        <th>File</th>
+        <th>Built with</th>
+        <th>Oligo-State</th>
+        <th>Ligands</th>
+        <th title="Global Model Quality Estimate">GMQE</th>
+        <th>QMEAN</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><a href="model/10/10.png" target="_blank"><img height="60" src="model/10/10.png"></a>
+  </td>
+  	    <td><a href="model/10/model.pdb" target="_blank">PDB</a></td>
+  		<td>ProMod3 3.0.0</td>
+        <td>monomer </td>
+        <td>
+          <div style="max-width:350px;">None
+          </div>
+        </td>
+        <td>0.43</td>
+        <td>-2.99</td>
+      </tr>
+     </table>
+  	
+  	<table width="100%" cellspacing=5>
+  	<tr>
+  	    <td width="30%">
+       	 <table id="qmeanGlobalTbl10"></table>
+        </td>
+          <td width="33%">
+            <a href="#lq-chart-10" rel="lq-10" class="fancybox">
+              <div id="lq-chart-10-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="lq-chart-10" style="display:none"></div>
+          </td>
+
+          <td width="33%">
+            <a href="#qn-chart-10" class="fancybox">
+              <div id="qn-chart-10-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="qn-chart-10" style="display:none"></div>
+          </td>
+  	 </tr>
+  	</table>
+
+
+  	<table class="borderedTbl">
+  		<thead>
+  			<tr>
+  				<th>Template</th>
+  				<th>Seq Identity</th>
+  				<th>Oligo-state</th>
+  				<th>QSQE</th>
+  				<th>Found by</th>
+  				<th>Method</th>
+  				<th>Resolution</th>
+  				<th>Seq Similarity</th>
+  				<th>Range</th>
+  				<th>Coverage</th>
+  				<th>Description</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+        
+        
+        <tr>
+  				<td>
+                
+              <a href="model/10/templates/6wg4.1.A.pdb.gz" target="_blank">6wg4.1.A</a>
+                
+              
+          </td>
+  				<td>12.33</td>
+  				<td>monomer</td>
+  				<td>0.00</td>
+  				<td>HHblits</td>
+  				<td>X-ray</td>
+  				<td>2.31&Aring;</td>
+  				<td>0.28</td>
+  				<td>10 - 169
+
+        </td>
+  				<td>0.77</td>
+  				<td>Structural maintenance of chromosomes protein</td>
+  			</tr>
+  		</tbody>
+  	</table> 
+  	
+    
+    <br>
+    <h3>The template contained no ligands.</h3>
+    
+
+    
+
+  
+
+<br>
+
+
+<pre>Target    DTFLMNFDRNMDRLLRTIEQRKNEFETPAIGPLGSLVTIRKGFEKWTRSIQRAISSSLNAFVVSNPKDNRLFRDIMRSCG<br>6wg4.1.A  ---------RKAEIMESIK-R--LYPGSVYGRLIDLCQPTQ--KKYQIAVTKVLGKNMDAIIVDSEKTGRDCIQYIKEQR<br><br>Target    IRSNIPIVTYCL-S--QFDYSKGRAHGNYPTIVDALEFSKPEIECLFVDLSRIERIVLIEDKNEARNFLQRNPVNVNMAL<br>6wg4.1.A  GE-PETFLPLDYLEVKPTDEKLREL-KGAKLVIDVIRYEPPHIKKAL--QYACGNALVCDNVEDARRIAFGGH-QRHKTV<br><br>Target    SLRDRRSGFQLSGGYRLDTVTYQDKIRLKVNSS<br>6wg4.1.A  ALD----GTLFQ---------------------<br><br></pre>
+
+
+  <br>
+  <hr><br>
+  
+
+      
+
+
+      <table class="borderedTbl" width="100%" border=0 cellspacing=1 cellpadding=5>
+  		<thead>
+        <tr>
+        <th><h3>Model #06</h3></th>
+        <th>File</th>
+        <th>Built with</th>
+        <th>Oligo-State</th>
+        <th>Ligands</th>
+        <th title="Global Model Quality Estimate">GMQE</th>
+        <th>QMEAN</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><a href="model/06/06.png" target="_blank"><img height="60" src="model/06/06.png"></a>
+  </td>
+  	    <td><a href="model/06/model.pdb" target="_blank">PDB</a></td>
+  		<td>ProMod3 3.0.0</td>
+        <td>monomer (matching prediction)</td>
+        <td>
+          <div style="max-width:350px;">None
+          </div>
+        </td>
+        <td>0.43</td>
+        <td>-4.05</td>
+      </tr>
+     </table>
+  	
+  	<table width="100%" cellspacing=5>
+  	<tr>
+  	    <td width="30%">
+       	 <table id="qmeanGlobalTbl06"></table>
+        </td>
+          <td width="33%">
+            <a href="#lq-chart-06" rel="lq-06" class="fancybox">
+              <div id="lq-chart-06-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="lq-chart-06" style="display:none"></div>
+          </td>
+
+          <td width="33%">
+            <a href="#qn-chart-06" class="fancybox">
+              <div id="qn-chart-06-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="qn-chart-06" style="display:none"></div>
+          </td>
+  	 </tr>
+  	</table>
+
+
+  	<table class="borderedTbl">
+  		<thead>
+  			<tr>
+  				<th>Template</th>
+  				<th>Seq Identity</th>
+  				<th>Oligo-state</th>
+  				<th>QSQE</th>
+  				<th>Found by</th>
+  				<th>Method</th>
+  				<th>Resolution</th>
+  				<th>Seq Similarity</th>
+  				<th>Range</th>
+  				<th>Coverage</th>
+  				<th>Description</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+        
+        
+        <tr>
+  				<td>
+                
+              <a href="model/06/templates/1gxl.2.A.pdb.gz" target="_blank">1gxl.2.A</a>
+                
+              
+          </td>
+  				<td>16.44</td>
+  				<td>homo-dimer</td>
+  				<td>0.06</td>
+  				<td>HHblits</td>
+  				<td>X-ray</td>
+  				<td>3.00&Aring;</td>
+  				<td>0.29</td>
+  				<td>6 - 169
+
+        </td>
+  				<td>0.77</td>
+  				<td>CHROMOSOME SEGREGATION SMC PROTEIN</td>
+  			</tr>
+  		</tbody>
+  	</table> 
+  	
+    
+    <br>
+    <h3>The template contained no ligands.</h3>
+    
+
+    
+
+  
+
+<br>
+
+
+<pre>Target    DTFLMNFDRNMDRLLRTIEQRKNEFETPAIGPLGSLVTIRKGFEKWTRSIQRAISSSLNAFVVSNPKDNRLFRDIMRSCG<br>1gxl.2.A  -----GFSRAVRAVFEEKE----RF-PGLVDVVSNLIEV-D--EKYSLAVSVLLGGTAQNIVVRNVDTAKAIVEFLKQNE<br><br>Target    IRSNIPIVTYCL--SQFDYS---KGRAHGNYPTIVDALEFSKPEIECLFVDLSRIERIVLIEDKNEARNFLQRNPVNVNM<br>1gxl.2.A  AG-RVTILPLDLIDGSFNRISGLENER-GFVGYAVDLVKFPSD-LEV-LGG-FLFGNSVVVETLDDAIRMKKKYR-LNTR<br><br>Target    ALSLRDRRSGFQLSGGYRLDTVTYQDKIRLKVNSS<br>1gxl.2.A  IATLD----GELIS---------------------<br><br></pre>
+
+
+  <br>
+  <hr><br>
+  
+
+      
+
+
+      <table class="borderedTbl" width="100%" border=0 cellspacing=1 cellpadding=5>
+  		<thead>
+        <tr>
+        <th><h3>Model #05</h3></th>
+        <th>File</th>
+        <th>Built with</th>
+        <th>Oligo-State</th>
+        <th>Ligands</th>
+        <th title="Global Model Quality Estimate">GMQE</th>
+        <th>QMEAN</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><a href="model/05/05.png" target="_blank"><img height="60" src="model/05/05.png"></a>
+  </td>
+  	    <td><a href="model/05/model.pdb" target="_blank">PDB</a></td>
+  		<td>ProMod3 3.0.0</td>
+        <td>monomer (matching prediction)</td>
+        <td>
+          <div style="max-width:350px;">None
+          </div>
+        </td>
+        <td>0.43</td>
+        <td>-4.07</td>
+      </tr>
+     </table>
+  	
+  	<table width="100%" cellspacing=5>
+  	<tr>
+  	    <td width="30%">
+       	 <table id="qmeanGlobalTbl05"></table>
+        </td>
+          <td width="33%">
+            <a href="#lq-chart-05" rel="lq-05" class="fancybox">
+              <div id="lq-chart-05-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="lq-chart-05" style="display:none"></div>
+          </td>
+
+          <td width="33%">
+            <a href="#qn-chart-05" class="fancybox">
+              <div id="qn-chart-05-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="qn-chart-05" style="display:none"></div>
+          </td>
+  	 </tr>
+  	</table>
+
+
+  	<table class="borderedTbl">
+  		<thead>
+  			<tr>
+  				<th>Template</th>
+  				<th>Seq Identity</th>
+  				<th>Oligo-state</th>
+  				<th>QSQE</th>
+  				<th>Found by</th>
+  				<th>Method</th>
+  				<th>Resolution</th>
+  				<th>Seq Similarity</th>
+  				<th>Range</th>
+  				<th>Coverage</th>
+  				<th>Description</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+        
+        
+        <tr>
+  				<td>
+                
+              <a href="model/05/templates/1gxl.1.A.pdb.gz" target="_blank">1gxl.1.A</a>
+                
+              
+          </td>
+  				<td>16.44</td>
+  				<td>homo-dimer</td>
+  				<td>0.05</td>
+  				<td>HHblits</td>
+  				<td>X-ray</td>
+  				<td>3.00&Aring;</td>
+  				<td>0.29</td>
+  				<td>6 - 169
+
+        </td>
+  				<td>0.77</td>
+  				<td>CHROMOSOME SEGREGATION SMC PROTEIN</td>
+  			</tr>
+  		</tbody>
+  	</table> 
+  	
+    
+    <br>
+    <h3>The template contained no ligands.</h3>
+    
+
+    
+
+  
+
+<br>
+
+
+<pre>Target    DTFLMNFDRNMDRLLRTIEQRKNEFETPAIGPLGSLVTIRKGFEKWTRSIQRAISSSLNAFVVSNPKDNRLFRDIMRSCG<br>1gxl.1.A  -----GFSRAVRAVFEEKE----RF-PGLVDVVSNLIEV-D--EKYSLAVSVLLGGTAQNIVVRNVDTAKAIVEFLKQNE<br><br>Target    IRSNIPIVTYCL--SQFDYS---KGRAHGNYPTIVDALEFSKPEIECLFVDLSRIERIVLIEDKNEARNFLQRNPVNVNM<br>1gxl.1.A  AG-RVTILPLDLIDGSFNRISGLENER-GFVGYAVDLVKFPSD-LEV-LGG-FLFGNSVVVETLDDAIRMKKKYR-LNTR<br><br>Target    ALSLRDRRSGFQLSGGYRLDTVTYQDKIRLKVNSS<br>1gxl.1.A  IATLD----GELIS---------------------<br><br></pre>
+
+
+  <br>
+  <hr><br>
+  
+
+      
+
+
+      <table class="borderedTbl" width="100%" border=0 cellspacing=1 cellpadding=5>
+  		<thead>
+        <tr>
+        <th><h3>Model #08</h3></th>
+        <th>File</th>
+        <th>Built with</th>
+        <th>Oligo-State</th>
+        <th>Ligands</th>
+        <th title="Global Model Quality Estimate">GMQE</th>
+        <th>QMEAN</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><a href="model/08/08.png" target="_blank"><img height="60" src="model/08/08.png"></a>
+  </td>
+  	    <td><a href="model/08/model.pdb" target="_blank">PDB</a></td>
+  		<td>ProMod3 3.0.0</td>
+        <td>monomer (matching prediction)</td>
+        <td>
+          <div style="max-width:350px;">None
+          </div>
+        </td>
+        <td>0.35</td>
+        <td>-4.44</td>
+      </tr>
+     </table>
+  	
+  	<table width="100%" cellspacing=5>
+  	<tr>
+  	    <td width="30%">
+       	 <table id="qmeanGlobalTbl08"></table>
+        </td>
+          <td width="33%">
+            <a href="#lq-chart-08" rel="lq-08" class="fancybox">
+              <div id="lq-chart-08-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="lq-chart-08" style="display:none"></div>
+          </td>
+
+          <td width="33%">
+            <a href="#qn-chart-08" class="fancybox">
+              <div id="qn-chart-08-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="qn-chart-08" style="display:none"></div>
+          </td>
+  	 </tr>
+  	</table>
+
+
+  	<table class="borderedTbl">
+  		<thead>
+  			<tr>
+  				<th>Template</th>
+  				<th>Seq Identity</th>
+  				<th>Oligo-state</th>
+  				<th>QSQE</th>
+  				<th>Found by</th>
+  				<th>Method</th>
+  				<th>Resolution</th>
+  				<th>Seq Similarity</th>
+  				<th>Range</th>
+  				<th>Coverage</th>
+  				<th>Description</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+        
+        
+        <tr>
+  				<td>
+                
+              <a href="model/08/templates/1gxk.1.A.pdb.gz" target="_blank">1gxk.1.A</a>
+                
+              
+          </td>
+  				<td>14.29</td>
+  				<td>homo-dimer</td>
+  				<td>0.00</td>
+  				<td>HHblits</td>
+  				<td>X-ray</td>
+  				<td>3.00&Aring;</td>
+  				<td>0.29</td>
+  				<td>30 - 169
+
+        </td>
+  				<td>0.66</td>
+  				<td>CHROMOSOME SEGREGATION SMC PROTEIN</td>
+  			</tr>
+  		</tbody>
+  	</table> 
+  	
+    
+    <br>
+    <h3>The template contained no ligands.</h3>
+    
+
+    
+
+  
+
+<br>
+
+
+<pre>Target    DTFLMNFDRNMDRLLRTIEQRKNEFETPAIGPLGSLVTIRKGFEKWTRSIQRAISSSLNAFVVSNPKDNRLFRDIMRSCG<br>1gxk.1.A  -----------------------------VDVVSNLIEV-D--EKYSLAVSVLLGGTAQNIVVRNVDTAKAIVEFLKQNE<br><br>Target    IRSNIPIVTYCLSQFDYS-KGR---A-HGNYPTIV-DALEFSKPEIECLFVDLSRIERIVLIEDKNEARNFLQRNPVNVN<br>1gxk.1.A  AG-RVTILPLD--LIDGSFNRISGLENERGFVGYAVDLVKFPSD-LEV-LGGF-LFGNSVVVETLDDAIRMKKKYR-LNT<br><br>Target    MALSLRDRRSGFQLSGGYRLDTVTYQDKIRLKVNSS<br>1gxk.1.A  RIATLD----GELIS---------------------<br><br></pre>
+
+
+  <br>
+  <hr><br>
+  
+
+      
+
+
+      <table class="borderedTbl" width="100%" border=0 cellspacing=1 cellpadding=5>
+  		<thead>
+        <tr>
+        <th><h3>Model #07</h3></th>
+        <th>File</th>
+        <th>Built with</th>
+        <th>Oligo-State</th>
+        <th>Ligands</th>
+        <th title="Global Model Quality Estimate">GMQE</th>
+        <th>QMEAN</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><a href="model/07/07.png" target="_blank"><img height="60" src="model/07/07.png"></a>
+  </td>
+  	    <td><a href="model/07/model.pdb" target="_blank">PDB</a></td>
+  		<td>ProMod3 3.0.0</td>
+        <td>monomer (matching prediction)</td>
+        <td>
+          <div style="max-width:350px;">None
+          </div>
+        </td>
+        <td>0.35</td>
+        <td>-3.32</td>
+      </tr>
+     </table>
+  	
+  	<table width="100%" cellspacing=5>
+  	<tr>
+  	    <td width="30%">
+       	 <table id="qmeanGlobalTbl07"></table>
+        </td>
+          <td width="33%">
+            <a href="#lq-chart-07" rel="lq-07" class="fancybox">
+              <div id="lq-chart-07-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="lq-chart-07" style="display:none"></div>
+          </td>
+
+          <td width="33%">
+            <a href="#qn-chart-07" class="fancybox">
+              <div id="qn-chart-07-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="qn-chart-07" style="display:none"></div>
+          </td>
+  	 </tr>
+  	</table>
+
+
+  	<table class="borderedTbl">
+  		<thead>
+  			<tr>
+  				<th>Template</th>
+  				<th>Seq Identity</th>
+  				<th>Oligo-state</th>
+  				<th>QSQE</th>
+  				<th>Found by</th>
+  				<th>Method</th>
+  				<th>Resolution</th>
+  				<th>Seq Similarity</th>
+  				<th>Range</th>
+  				<th>Coverage</th>
+  				<th>Description</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+        
+        
+        <tr>
+  				<td>
+                
+              <a href="model/07/templates/4rsj.1.A.pdb.gz" target="_blank">4rsj.1.A</a>
+                
+              
+          </td>
+  				<td>14.52</td>
+  				<td>homo-dimer</td>
+  				<td>0.00</td>
+  				<td>HHblits</td>
+  				<td>X-ray</td>
+  				<td>3.50&Aring;</td>
+  				<td>0.28</td>
+  				<td>25 - 169
+
+        </td>
+  				<td>0.65</td>
+  				<td>Chromosome partition protein Smc</td>
+  			</tr>
+  		</tbody>
+  	</table> 
+  	
+    
+    <br>
+    <h3>The template contained no ligands.</h3>
+    
+
+    
+
+  
+
+<br>
+
+
+<pre>Target    DTFLMNFDRNMDRLLRTIEQRKNEFETPAIGPLGSLVTIRKGFEK-WTRSIQRAISSSLNAFVVSNPKDNRLFRDIMRSC<br>4rsj.1.A  ------------------------I-GGIYGTLAELIKV-K--DEAYALAIEVALGNRADNVVVEDELVAEKAIKYLKEH<br><br>Target    GIRSNIPIV-TYCLSQFDYSKGRAHGNYPTIVDALEFSKPEIECLFVDLSRIERIVLIEDKNEARNFLQRNPVNVNMALS<br>4rsj.1.A  KLG-RLTFLPLNKIKPK--HVDSSV-GL-PAVDVIEYDQK-IENA--VKFALGDTVIVNSMEEARP-H-I-G--KVRMVT<br><br>Target    LRDRRSGFQLSGGYRLDTVTYQDKIRLKVNSS<br>4rsj.1.A  IE----GELYE---------------------<br><br></pre>
+
+
+  <br>
+  <hr><br>
+  
+
+      
+
+
+      <table class="borderedTbl" width="100%" border=0 cellspacing=1 cellpadding=5>
+  		<thead>
+        <tr>
+        <th><h3>Model #04</h3></th>
+        <th>File</th>
+        <th>Built with</th>
+        <th>Oligo-State</th>
+        <th>Ligands</th>
+        <th title="Global Model Quality Estimate">GMQE</th>
+        <th>QMEAN</th>
+        </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td><a href="model/04/04.png" target="_blank"><img height="60" src="model/04/04.png"></a>
+  </td>
+  	    <td><a href="model/04/model.pdb" target="_blank">PDB</a></td>
+  		<td>ProMod3 3.0.0</td>
+        <td>monomer (matching prediction)</td>
+        <td>
+          <div style="max-width:350px;">None
+          </div>
+        </td>
+        <td>0.08</td>
+        <td>-0.87</td>
+      </tr>
+     </table>
+  	
+  	<table width="100%" cellspacing=5>
+  	<tr>
+  	    <td width="30%">
+       	 <table id="qmeanGlobalTbl04"></table>
+        </td>
+          <td width="33%">
+            <a href="#lq-chart-04" rel="lq-04" class="fancybox">
+              <div id="lq-chart-04-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="lq-chart-04" style="display:none"></div>
+          </td>
+
+          <td width="33%">
+            <a href="#qn-chart-04" class="fancybox">
+              <div id="qn-chart-04-thumb" style="margin:12px 4px;"></div>
+            </a>
+            <div id="qn-chart-04" style="display:none"></div>
+          </td>
+  	 </tr>
+  	</table>
+
+
+  	<table class="borderedTbl">
+  		<thead>
+  			<tr>
+  				<th>Template</th>
+  				<th>Seq Identity</th>
+  				<th>Oligo-state</th>
+  				<th>QSQE</th>
+  				<th>Found by</th>
+  				<th>Method</th>
+  				<th>Resolution</th>
+  				<th>Seq Similarity</th>
+  				<th>Range</th>
+  				<th>Coverage</th>
+  				<th>Description</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+        
+        
+        <tr>
+  				<td>
+                
+              <a href="model/04/templates/2uvp.1.B.pdb.gz" target="_blank">2uvp.1.B</a>
+                
+              
+          </td>
+  				<td>24.32</td>
+  				<td>homo-dimer</td>
+  				<td>0.00</td>
+  				<td>HHblits</td>
+  				<td>X-ray</td>
+  				<td>1.70&Aring;</td>
+  				<td>0.33</td>
+  				<td>44 - 80
+
+        </td>
+  				<td>0.19</td>
+  				<td>HOBA</td>
+  			</tr>
+  		</tbody>
+  	</table> 
+  	
+    
+
+    
+
+  
+    <br>
+    <h3>Excluded ligands</h3>
+    <table width="100%" class="borderedTbl">
+      <thead>
+        <tr>
+          <th>Ligand Name.Number</th>
+          <th>Reason for Exclusion</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+    <tbody>
+    
+      
+      <tr><td>ACT.1</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">ACETATE ION</div></td>
+      </tr>
+      
+      <tr><td>ACT.2</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">ACETATE ION</div></td>
+      </tr>
+      
+      <tr><td>ACT.8</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">ACETATE ION</div></td>
+      </tr>
+      
+    
+      
+      <tr><td>CA.3</td><td>
+      Binding site not conserved.
+      </td>
+      <td><div style="max-width:650px;">CALCIUM ION</div></td>
+      </tr>
+      
+      <tr><td>CA.5</td><td>
+      Binding site not conserved.
+      </td>
+      <td><div style="max-width:650px;">CALCIUM ION</div></td>
+      </tr>
+      
+      <tr><td>CA.6</td><td>
+      Not in contact with model.
+      </td>
+      <td><div style="max-width:650px;">CALCIUM ION</div></td>
+      </tr>
+      
+      <tr><td>CA.7</td><td>
+      Binding site not conserved.
+      </td>
+      <td><div style="max-width:650px;">CALCIUM ION</div></td>
+      </tr>
+      
+      <tr><td>CA.9</td><td>
+      Binding site not conserved.
+      </td>
+      <td><div style="max-width:650px;">CALCIUM ION</div></td>
+      </tr>
+      
+    
+      
+      <tr><td>GOL.4</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">GLYCEROL</div></td>
+      </tr>
+      
+      <tr><td>GOL.10</td><td>
+      Not biologically relevant.
+      </td>
+      <td><div style="max-width:650px;">GLYCEROL</div></td>
+      </tr>
+      
+    
+		</tbody>
+	</table>
+  
+
+<br>
+
+
+<pre>Target    DTFLMNFDRNMDRLLRTIEQRKNEFETPAIGPLGSLVTIRKGFEKWTRSIQRAISSSLN--AFVVSNPKDNRLFRD-IMR<br>2uvp.1.B  -------------------------------------------SSYAKLIAQTISHVLNGGSLLVSADSSRHWFLNYILS<br><br>Target    SCGIRSNIPIVTYCLSQFDYSKGRAHGNYPTIVDALEFSKPEIECLFVDLSRIERIVLIEDKNEARNFLQRNPVNVNMAL<br>2uvp.1.B  NLN-----------------------------------------------------------------------------<br><br>Target    SLRDRRSGFQLSGGYRLDTVTYQDKIRLKVNSS<br>2uvp.1.B  ---------------------------------<br><br></pre>
+
+
+  <br>
+  <hr><br>
+  
+
+
+
+
+
+<h2>Materials and Methods</h2>
+
+
+
+<h2>Template Search</h2>
+<p>Template search with BLAST and HHBlits
+ has been performed against the SWISS-MODEL template library (SMTL, last update: 2020-05-27, last included PDB release: 2020-05-22).</p>
+
+<p>
+The target sequence was searched with BLAST against the primary amino acid sequence contained in the SMTL.
+
+
+A total of 2 templates were found.
+
+
+</p> 
+
+
+<p>
+An initial HHblits profile has been built using the procedure outlined in (Remmert et al.), followed by 1 iteration of HHblits against NR20. The obtained profile has then be searched against all profiles of the SMTL. A total of 49 templates were found.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2>Model Building</h2>
+<p>
+Models are built based on the target-template alignment using ProMod3. Coordinates which are conserved between the target and the template are copied from the template to the model. Insertions and deletions are remodelled using a fragment library. Side chains are then rebuilt. Finally, the geometry of the resulting model is regularized by using a force field. In case loop modelling with ProMod3 fails, an alternative model is built with PROMOD-II (<a href="#promodII">Guex et al.</a>).
+</p>
+
+<h2>Model Quality Estimation</h2>
+<p>
+The global and per-residue model quality has been assessed using the QMEAN scoring function (<a href="#qmean">Studer et al.</a>).
+</p>
+
+<h2>Ligand Modelling</h2>
+<p>
+Ligands present in the template structure are transferred by homology to the model when the following criteria are met: (a) The ligands are annotated as biologically relevant in the template library, (b) the ligand is in contact with the model, (c) the ligand is not clashing with the protein, (d) the residues in contact with the ligand are conserved between the target and the template. If any of these four criteria is not satisfied, a certain ligand will not be included in the model. The model summary includes information on why and which ligand has not been included.</p>
+
+<h2>Oligomeric State Conservation</h2>
+<p>
+The quaternary structure annotation of the template is used to model the target sequence in its oligomeric form. The method (<a href="#qsqe">Bertoni et al.</a>) is based on a supervised machine learning algorithm, Support Vector Machines (SVM), which combines interface conservation, structural clustering, and other template features to provide a quaternary structure quality estimate (QSQE). The QSQE score is a number between 0 and 1, reflecting the expected accuracy of the interchain contacts for a model built based a given alignment and template. Higher numbers indicate higher reliability. This complements the GMQE score which estimates the accuracy of the tertiary structure of the resulting model.</p>
+
+<h2>References</h2>
+<p>
+  <ul>
+    <li><a name="blastp"></a><b>BLAST</b><br>
+        Camacho, C., Coulouris, G., Avagyan, V., Ma, N., Papadopoulos, J.,
+        Bealer, K., Madden, T.L. BLAST+: architecture and applications. BMC
+        Bioinformatics 10, 421-430 (2009).
+        <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/20003500">
+          <img width="17" align="absmiddle" height="16"
+               src="images/pubmed.jpg
+                    "></a>
+        <a href="https://dx.doi.org/10.1186/1471-2105-10-421"
+           target="_blank"><img src="images/doi.jpg
+                                     " width="30"
+                                height="16" align="absmiddle"
+                                style="padding-left:2px"></a></li>
+    <li><a name="hhblits"></a><b>HHblits</b><br>
+        Remmert, M., Biegert, A., Hauser, A., S&ouml;ding, J. HHblits:
+        lightning-fast iterative protein sequence searching by HMM-HMM
+        alignment. Nat Methods 9, 173-175 (2012).
+        <a target="_blank" href="https://www.ncbi.nlm.nih.gov/pubmed/22198341">
+          <img width="17" align="absmiddle" height="16"
+               src="images/pubmed.jpg
+                    "></a>
+        <a href="https://dx.doi.org/10.1038/nmeth.1818"
+           target="_blank"><img src="images/doi.jpg
+                                     " width="30"
+                                height="16" align="absmiddle"
+                                style="padding-left:2px"></a></li>
+  </ul>
+
+<h2>Table T1:</h2>
+<p>Primary amino acid sequence for which templates were searched and models were built.</p>
+<div class="sequence">DTFLMNFDRNMDRLLRTIEQRKNEFETPAIGPLGSLVTIRKGFEKWTRSIQRAISSSLNAFVVSNPKDNRLFRDIMRSCGIRSNIPIVTYCLSQFDYSKG<br>RAHGNYPTIVDALEFSKPEIECLFVDLSRIERIVLIEDKNEARNFLQRNPVNVNMALSLRDRRSGFQLSGGYRLDTVTYQDKIRLKVNSS<br></div>
+
+
+<h2>Table T2:</h2>
+<table class="borderedTbl">
+<thead>
+	<tr>
+		<th>Template</th>
+		<th>Seq Identity</th>
+		<th>Oligo-state</th>
+		<th>QSQE</th>
+		<th>Found by</th>
+		<th>Method</th>
+		<th>Resolution</th>
+		<th>Seq Similarity</th>
+		<th>Coverage</th>
+		<th>Description</th>
+	</tr>
+</thead>
+<tbody>
+
+<tr>
+		<td>5mg8.2.B</td>
+		<td>28.02</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>2.75&Aring;</td>
+		<td>0.36</td>
+		<td>0.96</td>
+		<td>Structural maintenance of chromosomes protein 6</td>
+	</tr>
+<tr>
+		<td>5mg8.1.B</td>
+		<td>28.02</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>2.75&Aring;</td>
+		<td>0.36</td>
+		<td>0.96</td>
+		<td>Structural maintenance of chromosomes protein 6</td>
+	</tr>
+<tr>
+		<td>5mg8.1.B</td>
+		<td>31.45</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>BLAST</td>
+		<td>X-ray</td>
+		<td>2.75&Aring;</td>
+		<td>0.39</td>
+		<td>0.84</td>
+		<td>Structural maintenance of chromosomes protein 6</td>
+	</tr>
+<tr>
+		<td>5mg8.2.B</td>
+		<td>31.45</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>BLAST</td>
+		<td>X-ray</td>
+		<td>2.75&Aring;</td>
+		<td>0.39</td>
+		<td>0.84</td>
+		<td>Structural maintenance of chromosomes protein 6</td>
+	</tr>
+<tr>
+		<td>5mg8.1.A</td>
+		<td>12.99</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>2.75&Aring;</td>
+		<td>0.27</td>
+		<td>0.93</td>
+		<td>Structural maintenance of chromosomes protein 5</td>
+	</tr>
+<tr>
+		<td>5mg8.2.A</td>
+		<td>12.99</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>2.75&Aring;</td>
+		<td>0.27</td>
+		<td>0.93</td>
+		<td>Structural maintenance of chromosomes protein 5</td>
+	</tr>
+<tr>
+		<td>1gxl.1.A</td>
+		<td>16.44</td>
+		<td>homo-dimer</td>
+		<td>0.05</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.00&Aring;</td>
+		<td>0.29</td>
+		<td>0.77</td>
+		<td>CHROMOSOME SEGREGATION SMC PROTEIN</td>
+	</tr>
+<tr>
+		<td>1gxl.1.B</td>
+		<td>16.44</td>
+		<td>homo-dimer</td>
+		<td>0.05</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.00&Aring;</td>
+		<td>0.29</td>
+		<td>0.77</td>
+		<td>CHROMOSOME SEGREGATION SMC PROTEIN</td>
+	</tr>
+<tr>
+		<td>1gxl.2.A</td>
+		<td>16.44</td>
+		<td>homo-dimer</td>
+		<td>0.06</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.00&Aring;</td>
+		<td>0.29</td>
+		<td>0.77</td>
+		<td>CHROMOSOME SEGREGATION SMC PROTEIN</td>
+	</tr>
+<tr>
+		<td>1gxl.2.B</td>
+		<td>16.44</td>
+		<td>homo-dimer</td>
+		<td>0.06</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.00&Aring;</td>
+		<td>0.29</td>
+		<td>0.77</td>
+		<td>CHROMOSOME SEGREGATION SMC PROTEIN</td>
+	</tr>
+<tr>
+		<td>6wg4.1.A</td>
+		<td>12.33</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>2.31&Aring;</td>
+		<td>0.28</td>
+		<td>0.77</td>
+		<td>Structural maintenance of chromosomes protein</td>
+	</tr>
+<tr>
+		<td>6wg6.2.A</td>
+		<td>12.24</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.54&Aring;</td>
+		<td>0.28</td>
+		<td>0.77</td>
+		<td>Structural maintenance of chromosomes protein</td>
+	</tr>
+<tr>
+		<td>6wg6.2.F</td>
+		<td>12.24</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.54&Aring;</td>
+		<td>0.28</td>
+		<td>0.77</td>
+		<td>Structural maintenance of chromosomes protein</td>
+	</tr>
+<tr>
+		<td>6wg6.2.C</td>
+		<td>12.24</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.54&Aring;</td>
+		<td>0.28</td>
+		<td>0.77</td>
+		<td>Structural maintenance of chromosomes protein</td>
+	</tr>
+<tr>
+		<td>6wg6.1.F</td>
+		<td>12.24</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.54&Aring;</td>
+		<td>0.28</td>
+		<td>0.77</td>
+		<td>Structural maintenance of chromosomes protein</td>
+	</tr>
+<tr>
+		<td>6wg6.1.C</td>
+		<td>12.24</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.54&Aring;</td>
+		<td>0.28</td>
+		<td>0.77</td>
+		<td>Structural maintenance of chromosomes protein</td>
+	</tr>
+<tr>
+		<td>6wg6.1.A</td>
+		<td>12.24</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.54&Aring;</td>
+		<td>0.28</td>
+		<td>0.77</td>
+		<td>Structural maintenance of chromosomes protein</td>
+	</tr>
+<tr>
+		<td>6wg6.2.D</td>
+		<td>9.40</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.54&Aring;</td>
+		<td>0.27</td>
+		<td>0.78</td>
+		<td>Structural maintenance of chromosomes protein 3</td>
+	</tr>
+<tr>
+		<td>6wg6.2.B</td>
+		<td>9.40</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.54&Aring;</td>
+		<td>0.27</td>
+		<td>0.78</td>
+		<td>Structural maintenance of chromosomes protein 3</td>
+	</tr>
+<tr>
+		<td>6wg6.1.B</td>
+		<td>9.40</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.54&Aring;</td>
+		<td>0.27</td>
+		<td>0.78</td>
+		<td>Structural maintenance of chromosomes protein 3</td>
+	</tr>
+<tr>
+		<td>6wg6.1.D</td>
+		<td>9.40</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.54&Aring;</td>
+		<td>0.27</td>
+		<td>0.78</td>
+		<td>Structural maintenance of chromosomes protein 3</td>
+	</tr>
+<tr>
+		<td>6wg6.1.G</td>
+		<td>9.40</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.54&Aring;</td>
+		<td>0.27</td>
+		<td>0.78</td>
+		<td>Structural maintenance of chromosomes protein 3</td>
+	</tr>
+<tr>
+		<td>1gxk.1.A</td>
+		<td>14.29</td>
+		<td>homo-dimer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.00&Aring;</td>
+		<td>0.29</td>
+		<td>0.66</td>
+		<td>CHROMOSOME SEGREGATION SMC PROTEIN</td>
+	</tr>
+<tr>
+		<td>1gxj.1.B</td>
+		<td>14.29</td>
+		<td>homo-dimer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>2.00&Aring;</td>
+		<td>0.29</td>
+		<td>0.66</td>
+		<td>CHROMOSOME SEGREGATION SMC PROTEIN</td>
+	</tr>
+<tr>
+		<td>1gxj.1.A</td>
+		<td>14.29</td>
+		<td>homo-dimer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>2.00&Aring;</td>
+		<td>0.29</td>
+		<td>0.66</td>
+		<td>CHROMOSOME SEGREGATION SMC PROTEIN</td>
+	</tr>
+<tr>
+		<td>4rsj.1.B</td>
+		<td>14.52</td>
+		<td>homo-dimer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.50&Aring;</td>
+		<td>0.28</td>
+		<td>0.65</td>
+		<td>Chromosome partition protein Smc</td>
+	</tr>
+<tr>
+		<td>4rsj.2.B</td>
+		<td>14.52</td>
+		<td>homo-dimer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.50&Aring;</td>
+		<td>0.28</td>
+		<td>0.65</td>
+		<td>Chromosome partition protein Smc</td>
+	</tr>
+<tr>
+		<td>4rsj.2.A</td>
+		<td>14.52</td>
+		<td>homo-dimer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.50&Aring;</td>
+		<td>0.28</td>
+		<td>0.65</td>
+		<td>Chromosome partition protein Smc</td>
+	</tr>
+<tr>
+		<td>4rsj.1.A</td>
+		<td>14.52</td>
+		<td>homo-dimer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>3.50&Aring;</td>
+		<td>0.28</td>
+		<td>0.65</td>
+		<td>Chromosome partition protein Smc</td>
+	</tr>
+<tr>
+		<td>6wg4.1.B</td>
+		<td>6.35</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>2.31&Aring;</td>
+		<td>0.25</td>
+		<td>0.66</td>
+		<td>Structural maintenance of chromosomes protein 3</td>
+	</tr>
+<tr>
+		<td>2uvp.1.B</td>
+		<td>24.32</td>
+		<td>homo-dimer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>1.70&Aring;</td>
+		<td>0.33</td>
+		<td>0.19</td>
+		<td>HOBA</td>
+	</tr>
+<tr>
+		<td>2uvp.1.C</td>
+		<td>24.32</td>
+		<td>homo-dimer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>1.70&Aring;</td>
+		<td>0.33</td>
+		<td>0.19</td>
+		<td>HOBA</td>
+	</tr>
+<tr>
+		<td>2uvp.1.D</td>
+		<td>24.32</td>
+		<td>homo-dimer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>1.70&Aring;</td>
+		<td>0.33</td>
+		<td>0.19</td>
+		<td>HOBA</td>
+	</tr>
+<tr>
+		<td>2uvp.1.A</td>
+		<td>24.32</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>X-ray</td>
+		<td>1.70&Aring;</td>
+		<td>0.33</td>
+		<td>0.19</td>
+		<td>HOBA</td>
+	</tr>
+<tr>
+		<td>5ms0.1.A</td>
+		<td>13.79</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>EM</td>
+		<td>NA</td>
+		<td>0.31</td>
+		<td>0.15</td>
+		<td>Antitermination protein N</td>
+	</tr>
+<tr>
+		<td>2lkl.1.A</td>
+		<td>35.71</td>
+		<td>monomer</td>
+		<td>-</td>
+		<td>HHblits</td>
+		<td>NMR</td>
+		<td>NA</td>
+		<td>0.36</td>
+		<td>0.15</td>
+		<td>Erythrocyte membrane protein 1 (PfEMP1)</td>
+	</tr>
+</tbody>
+</table>
+
+
+<br>The table above shows the top 36 filtered templates. A further 14 templates were found which were considered to be less suitable for modelling than the filtered list.<br>
+2wd5.1.B, 3nwc.2.A, 5h69.1.A, 4rsi.1.A, 3nwc.1.A, 2wd5.1.A, 4u4p.1.B, 6wg3.1.A, 3l51.1.B, 4rsi.1.B, 3l51.1.A, 4u4p.1.A, 6wg3.1.B, 5h69.1.B
+ 
+
+
+	</div>
+	
+  <div id="sib_footer">			
+   <div id="sib_footer_content"> 
+       <a href="https://www.sib.swiss">Swiss Institute of Bioinformatics</a>
+       <a href="mailto:help-swissmodel@unibas.ch" style="margin-left:16px;">Contact Us</a>
+      <div id="sib_footer_right" style="float:right"></div>
+  	</div>
+	</div>
+  
+  <script src="js/svgtocanvas.min.js"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/jquery.fancybox.pack.js"></script> 
+  <script src="js/qmean.min.js"></script>
+  <script src="js/raphael-min.js"></script>
+  <script>
+ var localQMEANNormImage='images/qmean_norm.png';
+ var modelData = {
+   
+      "03":{
+        'qmean_local' : { 
+        "B":[null,null,0.5103835267,0.62416399,0.5779191022,0.5821121081,0.6362506239,0.6543792417,0.6307697586,0.7375435871,0.7072270657,0.743989705,0.7318475387,0.8038721742,0.8117422197,0.7456292844,0.8199308264,0.8049118094,0.7625523791,0.6040046524,0.5641357308,0.5656684063,0.6828619258,0.6751718421,0.6996801786,0.6654375323,0.7114726076,0.7712475968,0.8061910277,0.7791566726,0.8017709514,0.7819251601,0.7755756913,0.7695949061,0.7513690871,0.7535746484,0.776645203,0.7341287418,0.690321927,0.6115289064,0.4239160164,0.5321588446,0.4778860723,0.6396939197,0.6594069513,0.6786031689,0.6981078887,0.6036029518,0.7083598559,0.7134700566,0.6639238723,0.5917442419,0.7468783251,0.6995602871,0.6537191095,0.6774608944,0.727775704,0.7264280366,0.7295892675,0.7877147521,0.7841026979,0.7963184081,0.7707658028,0.6952851798,0.7244434358,0.7778236124,0.7471702895,0.7486393732,0.7684395493,0.7272277983,0.7877986204,0.778007371,0.7362373099,0.7921969583,0.7857640766,0.7653905456,0.7189610802,0.7798669247,0.799425154,0.7982050361,0.7697524647,0.6881833993,0.4716687538,0.4259888159,0.7506442025,0.7964794049,0.7885364579,0.7994876853,0.7486784345,0.6879267437,0.687271996,0.6749734845,0.6726860663,0.658833134,0.6495797355,0.6972011618,0.6987171576,0.7054539188,0.688122744,0.7458748182,0.6624932553,0.7063237054,0.5875108033,0.6525565727,0.6336204546,0.7082200269,0.7885088423,0.7611902276,0.763995951,0.7838038821,0.7639185292,0.8012523205,0.7816864837,0.7452943675,0.7500784285,0.7604421951,0.7441896353,0.7218506275,0.6776442428,0.7171683871,0.7120455988,0.7282297112,0.7019621982,0.7065730078,0.7728802172,0.7443843173,0.7344430005,0.7197322393,0.6796951165,0.7641182738,0.7323542392,0.6949997608,0.7562797659,0.7744938246,0.7516161866,0.7275549539,0.7003244036,0.7122794105,0.6851930603,0.676595847,0.6696112031,0.731086743,0.5823299595,0.6628823374,0.6541271527,0.6497777638,0.6277140094,0.5595875609,0.5889648989,0.6618448617,0.6492308693,0.6745032963,0.7192873621,0.7179985574,0.7171342308,0.7957323804,0.7528529541,0.7432293129,0.7204602099,0.6195137402,0.4526918637,0.394734612,0.6049923502,0.7020462538,0.7352730484,0.6926514088,0.6974455809,0.7138944663,0.7020638353,0.42316094,0.4000283009,0.3918559659,0.5623203202,0.6205511269,0.6482751852,0.6656639834,0.7131458545,0.436631103,0.363172724,0.4314664178,0.3445229279,0.3869346061,0.599157353,0.6341962593,0.6895029581,0.6759836315,0.6617013899,0.6064694748,0.5931918063,null] },
+        'qmean_global':{"qmean4_norm_score":0.7053699726,"qmean4_z_score":-1.8505715366,"qmean6_norm_score":0.6817927845,"qmean6_z_score":-2.2309463068,"interaction_norm_score":-0.0156621764,"interaction_z_score":-1.6452712235,"cbeta_norm_score":-0.0090683384,"cbeta_z_score":-0.9818961017,"packing_norm_score":-0.4048334099,"packing_z_score":0.4597153005,"torsion_norm_score":-0.1261279428,"torsion_z_score":-1.7942407637,"ss_agreement_norm_score":0.4254902369,"ss_agreement_z_score":-1.7706711665,"acc_agreement_norm_score":0.6631016043,"acc_agreement_z_score":-0.0769760363,"avg_local_score":0.6851011635,"avg_local_score_error":0.063}
+      },
+    
+      "01":{
+        'qmean_local' : { 
+        "B":[null,null,null,null,null,null,0.6185147201,0.6208922724,0.6317784722,0.7383443584,0.7102454712,0.7706942315,0.7333819907,0.7869594652,0.7926628339,0.7363981893,0.8033087998,0.7813457345,0.7493656519,0.6101220326,0.5524170637,0.5590327299,0.6710396897,0.6640022515,0.6758603953,0.6203953093,0.6549084125,0.7368563987,0.7672535476,0.7211923289,0.7645101041,0.7587539899,0.724812373,0.7211705474,0.7174564048,0.7253703883,0.7369186981,0.693464865,0.6430229562,0.5803897738,0.3966623222,0.5574103676,0.5021553109,0.5962388924,0.5835906134,0.6120751823,0.6369442765,0.5330493809,0.617256316,0.6376047649,0.5974556589,0.5340237035,0.6463606483,0.6118041498,0.5729936306,0.5928328154,0.6539503917,0.6781489129,0.6693050008,0.7614926352,0.7144817517,0.744395791,0.7118543012,0.6218334619,0.6197160949,0.6939620509,0.7121674575,0.7015411187,0.7250379519,0.6988802535,0.7697895928,0.7568293382,0.7190549664,0.7773264581,0.7776645554,0.7370748522,0.7051219158,0.7805959177,0.7866788142,0.7805763495,0.7373876285,0.6626315486,0.451133547,0.4100102234,0.4236414697,0.4143527013,0.4283126602,0.3799917632,0.302190949,0.3070977557,0.4513513899,0.587009085,0.6056703769,0.6388208161,0.6232661601,0.7217452225,0.7040696682,0.7062758336,0.6963855013,0.7388515972,0.6661715043,0.7098832676,0.5756224161,0.6509734837,0.6385349336,0.7065463041,0.7754944903,0.7270702767,0.7216342165,0.763834899,0.7477229215,0.7910096441,0.7492604486,0.7270754832,0.7199198042,0.7315326193,0.7256373426,0.6984037491,0.6543250889,0.7008732692,0.6925383522,0.6953273581,0.6773759915,0.6747459707,0.7407217864,0.6765048445,0.6791620357,0.6481023962,0.6482989912,0.7279278755,0.7289661801,0.6896335477,0.7454427967,0.778218463,0.7379697974,0.7206624989,0.6498169701,0.6688820411,0.6746893138,0.7257055626,0.7201350703,0.7918371129,0.704059431,0.7488420465,0.7194229398,0.7264208672,0.6945539576,0.6355769827,0.6440624653,0.654595915,0.638435365,0.6670795295,0.7247155531,0.7061232447,0.7202854532,0.7915066975,0.7158977169,0.6854886181,0.6267593098,0.5294362845,0.5351050374,0.4738843846,0.3270405549,0.4189481056,0.2899897991,0.2385490249,0.2803225917,0.2832081447,0.2786586871,0.2864907123,0.3866933747,0.3524801343,0.4118338755,0.4740873618,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null] },
+        'qmean_global':{"qmean4_norm_score":0.7131828338,"qmean4_z_score":-1.5156364691,"qmean6_norm_score":0.6767716657,"qmean6_z_score":-2.1881996958,"interaction_norm_score":-0.0207754435,"interaction_z_score":-0.799675262,"cbeta_norm_score":-0.0130249537,"cbeta_z_score":-0.1493249021,"packing_norm_score":-0.4067568946,"packing_z_score":0.5206118753,"torsion_norm_score":-0.1199858578,"torsion_z_score":-1.6893743269,"ss_agreement_norm_score":0.3143709465,"ss_agreement_z_score":-2.3841910073,"acc_agreement_norm_score":0.6666666667,"acc_agreement_z_score":-0.0231681167,"avg_local_score":0.644843581,"avg_local_score_error":0.066}
+      },
+    
+      "02":{
+        'qmean_local' : { 
+        "B":[null,null,null,null,null,null,0.5864169355,0.5590952026,0.5762627542,0.6656062753,0.6631336511,0.7278507377,0.6923647947,0.7437452363,0.7516347524,0.704445208,0.7804037886,0.7591009082,0.7297365366,0.5780936776,0.5677828864,0.5357340235,0.6319874594,0.6541266621,0.6675280198,0.6447766209,0.6675875673,0.7339469375,0.7309663256,0.6995969838,0.720808222,0.7256933034,0.6947916003,0.6920711565,0.681493487,0.6894995282,0.7140199889,0.6777633076,0.6300326338,0.4087492372,0.3357915908,0.398374174,0.392257757,0.5217002963,0.5045550063,0.5255860215,0.5769989334,0.4757320939,0.5682691614,0.5965963747,0.5676406975,0.5272621211,0.6619306407,0.6305903717,0.6301889284,0.6304780274,0.6717553643,0.6811829383,0.6495379986,0.7309311133,0.6846526988,0.6981994537,0.6678745562,0.614248956,0.5962904828,0.6962691281,0.7161468487,0.684231377,0.7035795841,0.6979618885,0.7630582225,0.7320408159,0.7027918935,0.7606539207,0.759118005,0.7060903571,0.6863536961,0.7628586869,0.7584318128,0.728381185,0.6929545022,0.6296919898,0.4407301461,0.4029655723,0.3893085642,0.3797048021,0.417856228,0.3798896493,0.3530259745,0.3392439377,0.3637175368,0.3098453802,0.3761548426,0.6008984176,0.5383574092,0.6674343808,0.6643528069,0.6683420338,0.6693317805,0.6942366507,0.6468624288,0.7144510988,0.5771974461,0.649724561,0.6343304064,0.6878604799,0.7332330844,0.7032793903,0.6795456903,0.7047418963,0.6923393194,0.7269517355,0.711542746,0.6968236711,0.6872587417,0.6788030587,0.6655082286,0.6717343456,0.6224757673,0.6734075127,0.6615733482,0.6619769805,0.6369525653,0.6526779235,0.6810187327,0.6257199614,0.6271168992,0.6225041162,0.6143993343,0.681917128,0.6799479252,0.6683437097,0.7146912688,0.7530936201,0.7147103418,0.7129221395,0.6485419653,0.6850253175,0.6875502067,0.7284624593,0.7225933828,0.7923531464,0.7061201482,0.7477514303,0.7201034116,0.7326115037,0.7184834164,0.6405402462,0.6395585756,0.6405327114,0.6221085746,0.6483891253,0.7210426715,0.6953329483,0.7219046324,0.7894482866,0.7152269621,0.6975258349,0.623055143,0.5322379092,0.5134626372,0.4698003359,0.3185066046,0.3894598287,0.2581166889,0.2217472261,0.2728022214,0.2794452849,0.2809421661,0.2766967347,0.4005253851,0.3766532043,0.4065717652,0.4780488458,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null] },
+        'qmean_global':{"qmean4_norm_score":0.6888520376,"qmean4_z_score":-2.0587543557,"qmean6_norm_score":0.6404643356,"qmean6_z_score":-2.9470552725,"interaction_norm_score":-0.0200830365,"interaction_z_score":-0.9170055689,"cbeta_norm_score":-0.0122562305,"cbeta_z_score":-0.3034035525,"packing_norm_score":-0.3953792335,"packing_z_score":0.3552983461,"torsion_norm_score":-0.0603941623,"torsion_z_score":-2.1529281846,"ss_agreement_norm_score":0.2043157814,"ss_agreement_z_score":-3.1368227535,"acc_agreement_norm_score":0.6547619048,"acc_agreement_z_score":-0.1365912954,"avg_local_score":0.6181452306,"avg_local_score_error":0.066}
+      },
+    
+      "09":{
+        'qmean_local' : { 
+        "A":[null,null,0.3868243205,0.4884766704,0.38030449,0.3118121745,0.2825053384,0.3922752641,0.4575932085,0.5357677843,0.5364983867,0.5973470717,0.5932184398,0.6351047189,0.6338715787,0.6103848905,0.7065523319,0.7027688475,0.6473073729,0.6112620733,0.5614324254,0.5483973807,0.6209520561,0.6038247061,0.6813482654,0.6553320611,0.6505699717,0.6197237325,0.6961926381,0.672013216,0.6986692459,0.6655151755,0.6617430745,0.5831757945,0.588252443,0.5903771329,0.5937891605,0.5284593048,0.5400939221,0.4489913107,0.3450077475,0.5516830137,0.4250065256,0.5529938924,0.5028837442,0.4934461932,0.5448865892,0.4545345418,0.5094274755,0.5592683706,0.5592809889,0.4952545933,0.5625541205,0.6037968974,0.6073311795,0.6161888798,0.660102609,0.5426228985,0.6017394457,0.7024400714,0.6459772829,0.6976901787,0.6781736075,0.6339093314,0.6489751418,0.7213580385,0.6966012995,0.7062304084,0.6942189349,0.6198248725,0.6828298689,0.6853599655,0.6261629557,0.68125757,0.6378680752,0.6258634028,0.6099157887,0.5782216177,0.42857262,0.5889295325,0.2980917986,0.427488458,0.449304579,0.5535206032,0.5359379287,0.6761332018,0.6903942896,0.7078312348,0.6262808719,0.4947030553,0.4383170571,0.4191187523,0.4441006265,0.4873300107,0.3413225774,0.4219451497,0.387371673,0.4238642153,0.3737906486,0.4694083847,0.3676743206,0.462109384,0.4001946028,0.4578972478,0.4110798005,0.4552704796,0.441711831,0.4412629488,0.4345628505,0.4787825812,0.4387220773,0.4525076638,0.487563818,0.4556882194,0.360114024,0.5321348692,0.5888510326,0.6142177248,0.5998133825,0.6441266318,0.5912244831,0.6248395198,0.6091991399,0.6020333387,0.5832464429,0.56974771,0.60751606,0.5817792733,0.4672499638,0.5661815188,0.4712825109,0.4448775683,0.518854323,0.5159151383,0.5335617971,0.4596750217,0.4563492886,0.3842414017,0.308270237,0.3763137357,0.4113164662,0.3568998525,0.2961874535,0.3726425988,0.3731154478,0.416442264,0.5059087365,0.4747060244,0.47280422,0.491908367,0.4268901942,0.4316870811,0.5040478717,0.4114904545,0.5072235923,0.5657723403,0.5232523516,0.5051274341,0.4862999173,0.3739564837,0.3596635273,0.3756001008,0.3593705661,0.4634607552,0.5063752806,0.4326842197,0.4206621589,0.3546758389,0.3484900344,0.4531955566,0.4250181382,0.3898144871,0.3717136622,0.3816367686,0.3570334897,0.3399223374,0.3797357483,0.4135538771,0.3736947596,0.4934887032,0.500687942,0.4725426456,0.44360523,0.336838856,0.4388322502,0.4652279231,null,null,null,null] },
+        'qmean_global':{"qmean4_norm_score":0.6361557334,"qmean4_z_score":-3.4158448016,"qmean6_norm_score":0.6047997087,"qmean6_z_score":-3.8290470968,"interaction_norm_score":-0.0114239114,"interaction_z_score":-2.3514731867,"cbeta_norm_score":-0.0022056026,"cbeta_z_score":-2.3651381859,"packing_norm_score":-0.2972806072,"packing_z_score":-1.0739777093,"torsion_norm_score":-0.0367654327,"torsion_z_score":-2.5162559456,"ss_agreement_norm_score":0.4010460005,"ss_agreement_z_score":-1.923295575,"acc_agreement_norm_score":0.5597826087,"acc_agreement_z_score":-1.0373395181,"avg_local_score":0.513724029,"avg_local_score_error":0.063}
+      },
+    
+      "10":{
+        'qmean_local' : { 
+        "A":[null,null,null,null,null,null,null,null,null,0.3981035769,0.5731004157,0.6260138034,0.518529937,0.6367229635,0.6426132534,0.578428385,0.5737064506,0.6301185658,0.5140247133,0.4245133214,0.4656967425,0.4178100684,0.4682816147,0.4048943748,0.4250905384,0.3550775968,0.4436015921,0.5339866109,0.6452412924,0.6093255408,0.6109160944,0.6590421016,0.6177056883,0.6663337451,0.6636659392,0.6439101046,0.6841668766,0.6505458636,0.6298359743,0.5133656609,0.3709216135,0.4755358862,0.404317329,0.5674787857,0.544987095,0.5769438672,0.6459716029,0.5510221201,0.5525663756,0.6338172766,0.6184908251,0.5210409981,0.5784621618,0.6195970506,0.6450267409,0.6138079983,0.6278704517,0.6163046623,0.6241309265,0.6747887715,0.6322754629,0.6905879672,0.6639200825,0.5883244163,0.5825126878,0.6697595348,0.6499237449,0.6559838139,0.6737143565,0.6372792143,0.717671936,0.7041252354,0.6638561653,0.7142652383,0.6792172452,0.6388343019,0.6142687246,0.5684511971,0.4753289424,0.5179631727,0.5220744828,0.4173067765,0.4880957612,0.470929361,0.6387496511,0.6731241139,0.6990736108,0.7051843372,0.6545026409,0.5233259167,0.4074788312,0.3502938287,0.3426097891,0.3719370486,0.3339083744,0.3824437795,0.3112651913,0.3812358405,0.3907865139,0.4192483526,0.3260756166,0.4501947418,0.3959727912,0.4628393103,0.465223864,0.5047909451,0.5809009791,0.5744080991,0.6069649364,0.5983019581,0.5923871666,0.6570274953,0.6596831851,0.6374640973,0.6195225377,0.6378898941,0.5735557363,0.6139622621,0.4890336221,0.5715855521,0.5546286906,0.6187928916,0.5664653535,0.4890312979,0.4742351361,0.4019256826,0.3342920315,0.4122215131,0.428119397,0.5124439578,0.3783203098,0.4840197996,0.5591556544,0.6128896631,0.6292384685,0.593586654,0.5392771578,0.612963825,0.6271337302,0.6001650804,0.5348975141,0.6560811394,0.5609589797,0.5335669119,0.4888343422,0.5724118324,0.523815846,0.4754180205,0.4648023823,0.3669536385,0.3206038244,0.3292412754,0.3522260095,0.4328227828,0.5312976555,0.6707758668,0.6479601286,0.6456980217,0.5584887035,0.4346446167,0.43884309,0.4233414896,0.3740709687,0.5220707556,0.663611232,0.6038363248,0.6165720963,0.6522192388,0.6047773555,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null] },
+        'qmean_global':{"qmean4_norm_score":0.6385544273,"qmean4_z_score":-2.985092515,"qmean6_norm_score":0.6151374943,"qmean6_z_score":-3.3645746049,"interaction_norm_score":-0.0140108307,"interaction_z_score":-1.9281810025,"cbeta_norm_score":-0.0067534752,"cbeta_z_score":-1.3474502017,"packing_norm_score":-0.3430938987,"packing_z_score":-0.4149808248,"torsion_norm_score":0.0159575464,"torsion_z_score":-2.583656198,"ss_agreement_norm_score":0.3828243161,"ss_agreement_z_score":-1.9505935799,"acc_agreement_norm_score":0.625,"acc_agreement_z_score":-0.3513508423,"avg_local_score":0.545980142,"avg_local_score_error":0.066}
+      },
+    
+      "06":{
+        'qmean_local' : { 
+        "A":[null,null,null,null,null,0.3194022415,0.3618608225,0.4992373089,0.5121958347,0.5394359754,0.5983724234,0.5877229107,0.5664083505,0.6098373004,0.6022996945,0.4706683402,0.5582399854,0.5496178762,0.3923479696,0.3639836606,0.3590742908,0.3684278621,0.4466497597,0.5493813346,0.5370357894,0.3827515769,0.4083513203,0.480862412,0.5077921502,0.479272954,0.5084484826,0.602143266,0.4636757794,0.5502445796,0.518369313,0.5330777784,0.5706003881,0.572450335,0.5007638313,0.3351145654,0.3664780193,0.4030899915,0.2283428732,0.4403560484,0.35089041,0.3661256871,0.5306503918,0.5721775008,0.6074043452,0.6011906503,0.5778030934,0.4918469638,0.5720264751,0.6178181554,0.5865535784,0.5351619421,0.5672146378,0.545388494,0.5449334769,0.6144780088,0.5911186256,0.5832005297,0.6193935742,0.5723999173,0.5804425608,0.6691759029,0.6567457308,0.6384243101,0.6820956995,0.6476184341,0.7280351405,0.6309951601,0.6041220303,0.6808988144,0.5924762217,0.5250273337,0.5667464977,0.5182821844,0.3896320751,0.3573981616,0.2780574991,0.3760165167,0.3683951428,0.5193345294,0.5143689022,0.5812002258,0.6392343124,0.6493602074,0.6308561568,0.5222059174,0.4046464778,0.2973563713,0.3304291052,0.3351637244,0.2978326809,0.3358479137,0.3315196727,0.3914969853,0.3913780367,0.3601426245,0.3170158185,0.4013968254,0.3790881649,0.3904112478,0.436265519,0.466354077,0.4873597424,0.5034496458,0.5240290584,0.5270981632,0.5116128853,0.5486913617,0.5898986515,0.5208385047,0.4707753957,0.4043982676,0.4524282884,0.5034712121,0.3800993466,0.4524677107,0.4006357613,0.4018244559,0.3763113277,0.387082099,0.440286779,0.3844541183,0.4620761329,0.4883407158,0.3262080251,0.5340914425,0.4535046293,0.4461925605,0.5737202918,0.6148706261,0.6073514728,0.5856355795,0.4985927266,0.6148192272,0.6394717638,0.6659961982,0.6021562575,0.6982514539,0.6438081679,0.6961048344,0.6517482441,0.6656358293,0.6542325846,0.6322768356,0.5657978665,0.4577127668,0.4311037903,0.3453699122,0.4036639674,0.5152023501,0.5839409495,0.6649133684,0.6462529679,0.6460688778,0.5568959941,0.4191260529,0.4345283056,0.414602786,0.2967706494,0.4247055421,0.7029150671,0.6318945821,0.6286001757,0.625095165,0.5362498013,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null] },
+        'qmean_global':{"qmean4_norm_score":0.5985586827,"qmean4_z_score":-4.0543283637,"qmean6_norm_score":0.5736843757,"qmean6_z_score":-4.3328120421,"interaction_norm_score":-0.0117934659,"interaction_z_score":-2.3026261152,"cbeta_norm_score":-0.0036569438,"cbeta_z_score":-2.0053510529,"packing_norm_score":-0.2969892154,"packing_z_score":-1.065512608,"torsion_norm_score":0.083697495,"torsion_z_score":-3.2605513801,"ss_agreement_norm_score":0.2899246848,"ss_agreement_z_score":-2.5583889277,"acc_agreement_norm_score":0.6402439024,"acc_agreement_z_score":-0.2359369081,"avg_local_score":0.5064595249,"avg_local_score_error":0.067}
+      },
+    
+      "05":{
+        'qmean_local' : { 
+        "A":[null,null,null,null,null,0.3152585982,0.3399173179,0.5241857231,0.5022116839,0.519894647,0.5696981558,0.5484777788,0.5144292761,0.5664317473,0.5551470669,0.4686333553,0.5079743611,0.5258765076,0.3859830956,0.3428546869,0.3485825732,0.3547077477,0.4488244718,0.4076844011,0.467456575,0.3989722786,0.5164767002,0.4553061973,0.5089180986,0.5061421772,0.5555883785,0.6377806868,0.5331970945,0.5751491304,0.5758524968,0.5659217605,0.6083819781,0.5775032726,0.5496447608,0.3798606685,0.2910835001,0.4243353717,0.3158208901,0.4326210146,0.3505686658,0.385035705,0.5450795686,0.6038519918,0.6098553397,0.6038911764,0.5882704922,0.488646268,0.5938030571,0.6167669098,0.5874832578,0.5298542184,0.5813725701,0.5659022744,0.5745811124,0.6505584108,0.6129007764,0.5963324737,0.5986316464,0.5519923194,0.5545903277,0.6726213345,0.6700168709,0.6462643807,0.6847961432,0.6445434064,0.6917115408,0.6156195556,0.5876251708,0.6461143401,0.582088448,0.5192131926,0.5618115439,0.5145946939,0.3903151252,0.3448861449,0.2798299163,0.3835018092,0.3583340972,0.559979423,0.5240668288,0.626723637,0.6567958912,0.6578153109,0.6377598551,0.4922890213,0.3905715124,0.2942195936,0.3422136411,0.3589170164,0.326893476,0.3562136094,0.3172805587,0.3722913863,0.4136942694,0.4619807868,0.3997125897,0.4833380398,0.4222418374,0.4293904246,0.4681041735,0.4849807021,0.5118376638,0.5223991536,0.531335427,0.5642506546,0.533700579,0.5760191391,0.5879833064,0.5398413754,0.4889982535,0.5186795982,0.4831460112,0.4651796918,0.3706190695,0.4323223614,0.409146614,0.4004343052,0.3755053142,0.3776060001,0.418842827,0.378868339,0.4102192386,0.3829828088,0.3075038978,0.528035784,0.4367727573,0.4334449236,0.5646082211,0.5994323355,0.6144090556,0.6005751918,0.5411842256,0.6326523871,0.6382964796,0.6661938675,0.6001074015,0.6890130681,0.6251557359,0.6782021782,0.6466216737,0.640226471,0.6300922392,0.6115433195,0.5902123337,0.5035147499,0.4112032039,0.3232404456,0.4128547523,0.4961907957,0.5718148546,0.6568104497,0.6416701764,0.6470235908,0.5732642252,0.4298559913,0.3627828748,0.3894371396,0.3080455268,0.4457360689,0.6782351405,0.62633007,0.6252283218,0.6272304671,0.5442341963,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null] },
+        'qmean_global':{"qmean4_norm_score":0.5976650075,"qmean4_z_score":-4.0742395783,"qmean6_norm_score":0.5767234198,"qmean6_z_score":-4.2691213863,"interaction_norm_score":-0.0087130487,"interaction_z_score":-2.8183457721,"cbeta_norm_score":0.0026725939,"cbeta_z_score":-3.2644597175,"packing_norm_score":-0.3199828682,"packing_z_score":-0.7368035464,"torsion_norm_score":0.0623467014,"torsion_z_score":-3.0943815113,"ss_agreement_norm_score":0.3349087143,"ss_agreement_z_score":-2.2522630201,"acc_agreement_norm_score":0.6524390244,"acc_agreement_z_score":-0.1163056766,"avg_local_score":0.5092257342,"avg_local_score_error":0.067}
+      },
+    
+      "08":{
+        'qmean_local' : { 
+        "A":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0.4352020716,0.4489169538,0.5649209109,0.5377759334,0.5739095427,0.5222660013,0.5078347328,0.5506540336,0.543267708,0.4142539415,0.3362991059,0.3239398409,0.4619867942,0.3884215684,0.5130115768,0.4129077168,0.523966769,0.6223512767,0.541325466,0.5161662965,0.6039436897,0.5746915292,0.4978064719,0.5382822807,0.6085548482,0.5926632653,0.5461943204,0.5827868742,0.4975539547,0.5697109433,0.6145825737,0.6026141723,0.5851414719,0.6404715233,0.6061211945,0.5838083377,0.6306136751,0.659027768,0.6766354781,0.6462218298,0.6556989522,0.7178090181,0.6723771216,0.6141046504,0.6826698557,0.6193776257,0.5314824798,0.5747846884,0.6007797704,0.4423088779,0.4117812295,0.2737005685,0.3710640121,0.4490042667,0.4969552934,0.5019415437,0.5675779314,0.6159170273,0.6403724325,0.5863496182,0.4797012782,0.4259828713,0.3462824173,0.3495207867,0.3385834813,0.301960199,0.3159134794,0.2775802558,0.3135719936,0.3185946115,0.4359912507,0.3056527783,0.3515827687,0.32327737,0.5025066881,0.4068446596,0.476803413,0.4118443918,0.4208931604,0.4228239734,0.4040766222,0.4858099692,0.5751831175,0.564793517,0.4515840497,0.4640115862,0.4102238906,0.3872682096,0.4816072851,0.3224943707,0.4060768638,0.4027007902,0.4021473024,0.3978113936,0.377629572,0.4216361583,0.3698768699,0.4546925568,0.4375925676,0.3771900207,0.487626529,0.4458382118,0.4189687023,0.5448588713,0.6056817128,0.5984467857,0.5904664565,0.5018676047,0.5826727536,0.594981164,0.5988156596,0.5759206189,0.6537098536,0.5825258739,0.6306743207,0.6028275403,0.5973159565,0.5885557499,0.5051095216,0.3410640668,0.404868597,0.3362007427,0.3610290531,0.3453993113,0.4725328428,0.5061967317,0.6355827894,0.6103010707,0.6000346265,0.5296854987,0.4065902692,0.333798373,0.3796324606,0.3299709425,0.5118910209,0.6584665348,0.5827728343,0.5843474334,0.5685871268,0.4934869386,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null] },
+        'qmean_global':{"qmean4_norm_score":0.5512101353,"qmean4_z_score":-4.4399046511,"qmean6_norm_score":0.5231134151,"qmean6_z_score":-4.8374470418,"interaction_norm_score":-0.0092796059,"interaction_z_score":-2.4721967789,"cbeta_norm_score":-0.0024251819,"cbeta_z_score":-2.0382925493,"packing_norm_score":-0.3286015609,"packing_z_score":-0.6295379381,"torsion_norm_score":0.2363607444,"torsion_z_score":-3.9156054343,"ss_agreement_norm_score":0.300385687,"ss_agreement_z_score":-2.6399293052,"acc_agreement_norm_score":0.5928571429,"acc_agreement_z_score":-0.5560687574,"avg_local_score":0.4960177364,"avg_local_score_error":0.071}
+      },
+    
+      "07":{
+        'qmean_local' : { 
+        "A":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0.4894504679,0.471157255,0.44515335,0.5234909305,0.3776138865,0.5241921589,0.5554429982,0.5848949697,0.5022470866,0.614319466,0.6114395168,0.5896040829,0.6149645738,0.6359938184,0.6287815892,0.5243926572,0.4122460049,0.511536684,0.508628175,0.5957568017,0.5360988884,0.5699672596,0.6272738013,0.5453295674,0.5263990745,0.5922455287,0.5995219041,0.4898206871,0.5425297813,0.5784595675,0.56921439,0.5371236379,0.5790784551,0.5514087981,0.5926991199,0.6281357698,0.5466905552,0.5979180951,0.5886501623,0.5565858906,0.5579290722,0.6399082579,0.6500037867,0.6352529514,0.655145637,0.6500022643,0.7073731927,0.6732303415,0.6318460419,0.673186929,0.6207894665,0.6038460988,0.5821602182,0.6515521047,0.5060099159,0.644748535,0.556112882,0.412564268,0.472292937,0.516545293,0.5701280661,0.6237626326,0.5982967158,0.5885002923,0.527110885,0.4338989433,0.4057252772,0.3827617763,0.3421821516,0.3421462245,0.2660339525,0.3123785034,0.3330754062,0.4096401365,0.3706387229,0.398837027,0.348660251,0.4573974286,0.4185542344,0.4711792229,0.3982700329,0.3513983872,0.5433660312,0.5789146229,0.5940783266,0.5777524179,0.5485486438,0.6638830624,0.6566872359,0.6168897656,0.586541678,0.5910712762,0.5272231689,0.5173100844,0.3852627718,0.430369417,0.4392411962,0.3711108739,0.3730281059,0.3242656763,0.3595271249,0.40098955,0.40487818,0.4447471611,0.4533288998,0.4949560092,0.4501720824,0.4079240599,0.5436621203,0.6214694492,0.5860964764,0.5874803705,0.6088444711,0.6171796391,0.5928791733,0.5892375228,0.5579970468,0.614279703,0.4552009236,0.4946253928,0.444416836,0.5119400314,0.50084086,0.3786455666,0.3417046851,0.4029029544,0.4232684117,0.3142933636,0.3692130214,0.4425312672,0.5546717971,0.6169236492,0.6349447405,0.6305611154,0.5592970062,0.5178481949,0.457376368,0.3908326469,0.3920344531,0.4962619241,0.6298180334,0.5785169812,0.5958129033,0.6014462152,0.560208074,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null] },
+        'qmean_global':{"qmean4_norm_score":0.6177735627,"qmean4_z_score":-3.3231776144,"qmean6_norm_score":0.5929160578,"qmean6_z_score":-3.7208794836,"interaction_norm_score":-0.0103848815,"interaction_z_score":-2.4012278558,"cbeta_norm_score":-0.0029048363,"cbeta_z_score":-1.9644665021,"packing_norm_score":-0.2943052086,"packing_z_score":-1.1248339754,"torsion_norm_score":0.0188696746,"torsion_z_score":-2.525963391,"ss_agreement_norm_score":0.3606700274,"ss_agreement_z_score":-2.2802622973,"acc_agreement_norm_score":0.6068965517,"acc_agreement_z_score":-0.3826801988,"avg_local_score":0.5201714806,"avg_local_score_error":0.067}
+      },
+    
+      "04":{
+        'qmean_local' : { 
+        "B":[null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,0.5912679477,0.6432137663,0.3596275606,0.5004007902,0.4486802092,0.5204950417,0.4492878915,0.505012867,0.4147382076,0.4477596066,0.341372147,0.4199153289,0.3791435084,0.3324785038,0.332430669,0.3333435691,0.2991612526,0.2568452037,0.2859851365,0.3872268175,0.3372649149,0.4032652036,0.4287234821,0.3713287004,0.3059153177,0.386670628,0.3895460219,0.4057113503,0.3792992279,0.3969611566,0.4254839139,0.3883404709,0.3417421887,0.2900568139,0.351168164,0.2538562617,0.3302265694,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null] },
+        'qmean_global':{"qmean4_norm_score":0.6586068995,"qmean4_z_score":-0.8698623916,"qmean6_norm_score":0.6044537944,"qmean6_z_score":-1.1027986081,"interaction_norm_score":-0.0323948452,"interaction_z_score":-0.2181293037,"cbeta_norm_score":-0.0270933249,"cbeta_z_score":0.172944144,"packing_norm_score":0.0033086802,"packing_z_score":-1.7799027854,"torsion_norm_score":-0.1422216854,"torsion_z_score":-0.295782347,"ss_agreement_norm_score":0.3889993908,"ss_agreement_z_score":-0.2873697103,"acc_agreement_norm_score":0.2972972973,"acc_agreement_z_score":-3.4221456366,"avg_local_score":0.3901066597,"avg_local_score_error":0.115}
+      }
+    
+ }  
+
+
+ $(document).ready( function()
+   {  
+      drawQMEAN('03')
+      drawQMEAN('01')
+      drawQMEAN('02')
+      drawQMEAN('09')
+      drawQMEAN('10')
+      drawQMEAN('06')
+      drawQMEAN('05')
+      drawQMEAN('08')
+      drawQMEAN('07')
+      drawQMEAN('04')
+   }) ;
+
+function drawQMEAN(id)
+{
+  var resCount = 0;
+  var local_scores = [];
+  for(chain in modelData[id].qmean_local)
+  {
+    var ls = {'chain':chain,'scores':[]};
+
+    for(var i=0; i<modelData[id].qmean_local[chain].length; i++)
+    {
+        ls['scores'].push([i, modelData[id].qmean_local[chain][i]]);
+        if(modelData[id].qmean_local[chain][i])
+          resCount++;
+    }
+    local_scores.push(ls);
+  }
+
+  drawQMEANLocal(local_scores, id);
+
+  drawQMEANGlobal(modelData[id]['qmean_global'], resCount, id, false);
+
+  $('a[rel=lq-'+id+'],a[href="#qn-chart-'+id+'"]')
+    .fancybox(
+      {
+        padding:30, 
+        'cyclic':true,
+        'hideOnContentClick':true,
+        beforeShow:function(a,b)
+        {
+          var id = $(this.content[0]).first().attr('id');
+          if(id.indexOf('lq-chart')>-1)
+            $('#'+id).closest('.fancybox-outer').after(
+               '<a style="color:#666;float:right;" onclick="svgToPNG(\''+id+'\',\'Local_quality_estimate.png\');">&#128247; Save as PNG</a>'
+               );
+          else if(id.indexOf('qn-chart')>-1)
+            $('#'+id).after(
+               '<a style="color:#666;float:right;" onclick="svgToPNG(\''+id+'\',\'Quality_comparison.png\');">&#128247; Save as PNG</a>'
+               );
+        }
+      });
+}
+
+
+
+
+  </script>
+
+  </body>
+</html>

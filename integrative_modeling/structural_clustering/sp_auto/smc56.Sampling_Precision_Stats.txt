@@ -1,0 +1,4 @@
+The sampling precision is defined as the largest allowed RMSD between the cluster centroid and a  smc56 model within any cluster in the finest clustering for which each sample contributes models proportionally to its size (considering both significance and magnitude of the difference) and for which a sufficient proportion of all models occur in sufficiently large clusters. The sampling precision for our  smc56  modeling is 32.710  A.
+Sampling precision, P-value, Cramer's V and percentage of clustered models below:
+32.710	0.329	0.046	97.922
+

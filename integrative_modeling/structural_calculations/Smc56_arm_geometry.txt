@@ -1,0 +1,4 @@
+Arm length       :  27.85 +/- 3.17 nm
+Smc5 elbow angle :  131.80 +/- 25.24 degrees
+Smc6 elbow angle :  128.21 +/- 25.08 degrees
+Elbow angle      :  130.00 +/- 23.66 degrees

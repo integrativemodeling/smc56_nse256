@@ -1,0 +1,57 @@
+{
+    "PLOTFMT": "svg",
+    "DPI": 300,
+    "XL": {
+        "LW": 1.5,
+        "LS": "--",
+        "TURN": 0.5,
+        "COLOR": "dimgray",
+        "ALPHA": 1.0,
+        "FN": "../../data/xl/xl_all.csv"
+    },
+    "SCORE":{
+        "METHOD": "Shenkin4",
+        "MINSCORE": 6.0,
+        "MAXSCORE": 18.0,
+        "COLORMAP": "Spectral",
+        "SMC5_FN": "smc5_scores.csv",
+        "SMC6_FN": "smc6_scores.csv",
+        "UNSTRUCTURED_DOMAIN_COLOR": "black",
+        "FADE_ALPHA": 0.8
+    },
+    "DOMAINS":{
+        "SMC5_HEAD": [[1, 204], [949, 1093]],
+        "SMC5_CC1": [[208, 266], [885, 946]],
+        "SMC5_CC2": [[272, 388], [719, 880]],
+        "SMC5_CC3": [[398, 459], [653, 714]],
+        "SMC5_ARM": [[205, 461], [640, 948]],
+        "SMC5_HINGE": [462, 639],
+        "SMC6_HEAD": [[1, 232], [988, 1114]],
+        "SMC6_CC1": [[236, 294], [923, 984]],
+        "SMC6_CC2": [[298, 310], [897, 916]],
+        "SMC6_CC3": [[314, 430], [769, 882]],
+        "SMC6_CC4": [[436, 501], [699, 760]],
+        "SMC6_ARM": [[233, 503], [694, 987]],
+        "SMC6_HINGE": [504, 693]
+    },
+    "DIMENSIONS":{
+        "FIG_H": 20,
+        "FIG_W": 10,
+        "FIG_CBAR_W": 5,
+        "FIG_CBAR_H": 0.8,
+        "FIG_CBAR_BOTTOM": 0.2,
+        "SUBPLOTS_NROWS": 5,
+        "SUBPLOTS_NCOLS": 2,
+        "SUBPLOTS_HSPACE": 0.0,
+        "SUBPLOTS_WSPACE": 0.0,
+        "SMC5_COL": 0,
+        "SMC6_COL": 1,
+        "H": 0.02,
+        "W": 0.1,
+        "PAD_W": 0.3,
+        "PAD_H": 0.1,
+        "DX_INTRA": 1.0,
+        "FACTOR_W_UNSTRUCTURED": 0.2,
+        "FACTOR_PAD_W_UNSTRUCTURED": 0.5
+    }
+}

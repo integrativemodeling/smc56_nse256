@@ -1,0 +1,8 @@
+title: Smc5/6-Nse2/5/6 complex
+tags: [Chemical crosslinks, PMI, ISAMBARD, Coiled-Coils, Cryo-EM, X-ray]
+pmid:
+accessions: []
+prereqs: [python/numpy, python/pandas, python/matplotlib, python/mpi4py, python/seaborn, python/hdbscan, modeller, isambard, biopython]
+test:
+    runtime: 24h
+    build: release

@@ -1,0 +1,3 @@
+Satisfaction of DSSO crosslinks : 99.25%
+Satisfaction of CDI crosslinks  : 91.04%
+Satisfaction of all crosslinks  : 97.61%

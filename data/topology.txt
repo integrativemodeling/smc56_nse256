@@ -1,0 +1,59 @@
+|molecule_name | color | fasta_fn | fasta_id | pdb_fn | chain | residue_range | pdb_offset | bead_size | em_residues_per_gaussian | rigid_body | super_rigid_body | chain_of_super_rigid_bodies |
+# smc5
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |BEADS                            |  |1,41       |0   |50  |0 |    |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |smc56_head-dimer.pdb             |A |42,204     |0   |10  |0 |1   |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |BEADS                            |  |205,207    |0   |10  |0 |    |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |smc5_cc-head.pdb                 |A |208,266    |0   |10  |0 |2   |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |BEADS                            |  |267,271    |0   |10  |0 |    |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |smc5_cc-mid-1.pdb                |A |272,303    |0   |10  |0 |3   |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |3htk.pdb                         |A |304,364    |0   |10  |0 |4   |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |smc5_cc-mid-2.pdb                |A |365,388    |0   |10  |0 |5   |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |BEADS                            |  |389,397    |0   |10  |0 |    |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |smc5_cc-hinge.pdb                |A |398,459    |0   |10  |0 |6   |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |BEADS                            |  |460,484    |0   |10  |0 |    |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |smc5_hinge.pdb                   |A |24,172     |461 |10  |0 |7   |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |BEADS                            |  |634,652    |0   |10  |0 |    |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |smc5_cc-hinge.pdb                |B |653,714    |0   |10  |0 |6   |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |smc5_cc-mid-2.pdb                |B |715,738    |0   |10  |0 |5   |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |3htk.pdb                         |B |739,811    |0   |10  |0 |4   |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |BEADS                            |  |812,850    |0   |10  |0 |    |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |smc5_cc-mid-1.pdb                |B |851,880    |0   |10  |0 |3   |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |BEADS                            |  |881,884    |0   |10  |0 |    |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |smc5_cc-head.pdb                 |B |885,946    |0   |10  |0 |2   |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |BEADS                            |  |947,949    |0   |10  |0 |    |||
+|smc5  |red         |smc56_nse256.fasta.txt    |smc5  |smc56_head-dimer.pdb             |B |950,1093   |0   |10  |0 |1   |||
+#
+# smc6
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |BEADS                            |  |1,79       |0   |80  |0 |    |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |smc56_head-dimer.pdb             |C |80,232     |0   |10  |0 |8   |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |BEADS                            |  |233,235    |0   |10  |0 |    |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |smc6_cc-head.pdb                 |A |236,294    |0   |10  |0 |9   |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |BEADS                            |  |295,297    |0   |10  |0 |    |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |smc6_cc-mid-1.pdb                |A |298,310    |0   |10  |0 |10  |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |smc6_cc-mid-2.pdb                |A |311,430    |0   |10  |0 |11  |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |BEADS                            |  |431,435    |0   |10  |0 |    |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |smc6_cc-hinge.pdb                |A |436,501    |0   |10  |0 |12  |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |BEADS                            |  |502,505    |0   |10  |0 |    |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |smc6_hinge.pdb                   |B |3,189      |503 |10  |0 |13  |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |BEADS                            |  |693,698    |0   |10  |0 |    |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |smc6_cc-hinge.pdb                |B |699,760    |0   |10  |0 |12  |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |BEADS                            |  |761,769    |0   |10  |0 |    |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |smc6_cc-mid-2.pdb                |B |770,882    |0   |10  |0 |11  |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |BEADS                            |  |883,896    |0   |10  |0 |    |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |smc6_cc-mid-1.pdb                |B |897,916    |0   |10  |0 |10  |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |BEADS                            |  |917,922    |0   |10  |0 |    |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |smc6_cc-head.pdb                 |B |923,984    |0   |10  |0 |9   |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |BEADS                            |  |985,987    |0   |10  |0 |    |||
+|smc6  |blue        |smc56_nse256.fasta.txt    |smc6  |smc56_head-dimer.pdb             |D |988,1114   |0   |10  |0 |8   |||
+#
+#nse2
+|nse2  |yellow      |smc56_nse256.fasta.txt    |nse2  |3htk.pdb                         |C |1,267      |0   |10  |0 |4   |||
+#
+#nse5
+|nse5  |purple      |smc56_nse256.fasta.txt    |nse5  |BEADS                            |  |1,21       |0   |30  |0 |14  |||
+|nse5  |purple      |smc56_nse256.fasta.txt    |nse5  |nse56.pdb                        |R |22,441     |0   |20  |0 |14  |||
+|nse5  |purple      |smc56_nse256.fasta.txt    |nse5  |BEADS                            |  |442,556    |0   |120 |0 |14  |||
+#
+#nse6
+|nse6  |cyan        |smc56_nse256.fasta.txt    |nse6  |BEADS                            |  |1,194      |0   |20  |0 |14  |||
+|nse6  |cyan        |smc56_nse256.fasta.txt    |nse6  |nse56.pdb                        |T |195,464    |0   |10  |0 |14  |||
