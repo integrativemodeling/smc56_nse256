@@ -1,7 +1,5 @@
 """
-This script builds the system representation, adds the details of the spatial restraints
-and structural sampling, and prepares the mmcif file of the integrative model of the yeast
-Smc5/6-Nse2/5/6 complex for deposition into PDB-Dev.
+This script builds the system representation, adds the details of the spatial restraints and structural sampling, and prepares the mmcif file of the integrative model of the yeast Smc5/6-Nse2/5/6 complex for deposition into PDB-Dev.
 
 Author:
 Tanmoy Sanyal,

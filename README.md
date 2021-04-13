@@ -2,7 +2,7 @@
 
 ![](integrative_modeling_protocol.png) 
 
-This repository contains Python scripts and associated input data and output results for constructing the integrative model of the  ATP-bound five-subunit yeast Smc5/6-Nse2/5/6 complex, using [IMP](https://integrativemodeling.org), (develop-255ae6c), [PMI](https://github.com/salilab/pmi) and [MODELLER](https://salilab.org/modeller).
+This repository contains Python scripts and associated input data and output results for constructing the integrative model of the  ATP-bound five-subunit yeast Smc5/6-Nse2/5/6 complex, using [IMP](https://integrativemodeling.org), (```develop-255ae6c```), [PMI](https://github.com/salilab/pmi) and [MODELLER](https://salilab.org/modeller).
 
 The input data used for this work is:
 
@@ -44,7 +44,7 @@ First, comparative models of the different parts of Smc5/6 as mentioned above, a
 
     
 
-- ```cc_parametric_modeling``` contains scripts and results for coiled-coil models designed using ISAMBARD.
+- ```cc_parametric_modeling``` contains scripts and results for coiled-coil models designed using [ISAMBARD](https://github.com/isambard-uob/isambard).
 
   - Coiled coils designed for Smc5/6 are kept in directories ```cc_parametric_modeling/smc5``` and ```cc_parametric_modeling/smc6``` respectively. Each directory contains separate folders for coiled-coils from the head-adjacent (```cc-head```), hinge-adjacent(```cc-hinge```) and middle (```cc-mid-1``` and ```cc-mid-2```) parts of the Smc5/6 arm. 
   - The final set of coiled coil models are kept in ```cc_parametric_modeling/best_models```. 
@@ -179,11 +179,11 @@ python ../get_Smc56_arm_geometry.py -r ../structural_clustering/good_scoring_mod
 
 _Author(s)_: Tanmoy Sanyal
 
-_Date_: March 29, 2021
+_Date_: April 13, 2021
 
 _License_: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
 
-_Last known good IMP version_: xx
+_Last known good IMP version_:  ```develop-255ae6c```
 
 _Testable_: Yes.
 
