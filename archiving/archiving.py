@@ -93,7 +93,7 @@ bs = IMP.pmi.macros.BuildSystem(m)
 # start recording the modeling protocol from here
 po = IMP.pmi.mmcif.ProtocolOutput()
 bs.system.add_protocol_output(po)
-po.system.title = "Integrative analysis reveals unique features of the Smc5/6 complex"
+po.system.title = "Integrative analysis reveals unique structural and functional features of the Smc5/6 complex"
 
 # add publication (TODO)
 #po.system.citations.append(ihm.Citation.from_pubmed_id())

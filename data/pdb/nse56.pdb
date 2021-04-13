@@ -1,3 +1,6 @@
+EXPDTA    DERIVED FROM PDB:7LTO
+TITLE  An earlier pre-publication version was used in this work
+
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : PHENIX (1.17.1_3660: phenix.real_space_refine)       
