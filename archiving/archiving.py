@@ -329,9 +329,9 @@ model = po.add_model(e.model_group)
 
 
 # ============ 7. ZENODO HARD-LINK ==============
-repo = ihm.location.Repository(doi="", root="../",
+repo = ihm.location.Repository(doi="10.5281/zenodo.4685414", root="../",
        top_directory="smc56_nse256",
-       url="")
+       url="https://zenodo.org/record/4685415")
 
 
 # ============ 8. LOCALIZATION DENSITIES =============

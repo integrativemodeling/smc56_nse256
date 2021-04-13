@@ -1,3 +1,5 @@
+#### [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4685415.svg)](https://doi.org/10.5281/zenodo.4685415)
+
 # Integrative structure of the Smc5/6-Nse2/5/6 complex
 
 ![](integrative_modeling_protocol.png) 
@@ -189,4 +191,5 @@ _Testable_: Yes.
 
 _Parallelizable_: Yes
 
-_Publications_:  You Yu, Shibai Li, Zheng Ser, **Tanmoy Sanyal**, Koyi Choi, Bingbing Wan, Huihui Kuang, Andrej Sali, Alex Kentsis, Dinshaw J. Patel and Xiaolan Zhao, *Integrative analysis reveals unique structure and function features of the Smc5/6 complex*, bioRxiv (2020)
+_Publications_:  You Yu, Shibai Li, Zheng Ser, **Tanmoy Sanyal**, Koyi Choi, Bingbing Wan, Huihui Kuang, Andrej Sali, Alex Kentsis, Dinshaw J. Patel and Xiaolan Zhao, [*Integrative analysis reveals unique structure and function features of the Smc5/6 complex*, bioRxiv (2020)](https://www.biorxiv.org/content/10.1101/2020.12.31.424863v1)
+
