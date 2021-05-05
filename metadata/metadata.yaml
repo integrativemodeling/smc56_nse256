@@ -1,6 +1,6 @@
 title: Smc5/6-Nse2/5/6 complex
 tags: [Chemical crosslinks, PMI, ISAMBARD, Coiled-Coils, Cryo-EM, X-ray]
-pmid:
+pmid: 33941673
 accessions: []
 prereqs: [python/numpy, python/pandas, python/matplotlib, python/mpi4py, python/seaborn, python/hdbscan, modeller, isambard, biopython]
 test:
