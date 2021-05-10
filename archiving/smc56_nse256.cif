@@ -15,9 +15,9 @@ _software.version
 _software.type
 _software.location
 1 'IMP PMI module' 'integrative model building' 'integrative model building'
-develop-31a0ad09b4 program https://integrativemodeling.org
+develop-98b2f66d12 program https://integrativemodeling.org
 2 'Integrative Modeling Platform (IMP)' 'integrative model building'
-'integrative model building' develop-31a0ad09b4 program
+'integrative model building' develop-98b2f66d12 program
 https://integrativemodeling.org
 3 MODELLER 'comparative modeling'
 'Comparative modeling by satisfaction of spatial restraints, build 2020/10/08 19:05:15'
@@ -25,6 +25,54 @@ https://integrativemodeling.org
 4 SWISS-MODEL 'protein homology modeling'
 'SWISS-MODEL: homology modelling of protein structures and complexes, using PROMOD3 engine'
 3.0.0 program https://swissmodel.expasy.org/
+#
+#
+loop_
+_citation.id
+_citation.title
+_citation.journal_abbrev
+_citation.journal_volume
+_citation.page_first
+_citation.page_last
+_citation.year
+_citation.pdbx_database_id_PubMed
+_citation.pdbx_database_id_DOI
+1
+'Integrative analysis reveals unique structural and functional features of the Smc5/6 complex.'
+'Proc Natl Acad Sci U S A' 118 . . 2021 33941673 10.1073/pnas.2026844118
+#
+#
+loop_
+_citation_author.citation_id
+_citation_author.name
+_citation_author.ordinal
+1 'Yu Y' 1
+1 'Li S' 2
+1 'Ser Z' 3
+1 'Sanyal T' 4
+1 'Choi K' 5
+1 'Wan B' 6
+1 'Kuang H' 7
+1 'Sali A' 8
+1 'Kentsis A' 9
+1 'Patel DJ' 10
+1 'Zhao X' 11
+#
+#
+loop_
+_audit_author.name
+_audit_author.pdbx_ordinal
+'Yu Y' 1
+'Li S' 2
+'Ser Z' 3
+'Sanyal T' 4
+'Choi K' 5
+'Wan B' 6
+'Kuang H' 7
+'Sali A' 8
+'Kentsis A' 9
+'Patel DJ' 10
+'Zhao X' 11
 #
 #
 loop_
@@ -7533,7 +7581,7 @@ _ihm_dataset_list.details
 3 'Comparative model' NO .
 4 'Comparative model' NO .
 5 'Comparative model' NO .
-6 'Experimental model' YES .
+6 'Experimental model' YES 'CRYSTAL STRUCTURE OF MMS21 AND SMC5 COMPLEX'
 7 'Comparative model' NO .
 8 'Comparative model' NO .
 9 'Experimental model' YES .
@@ -7544,7 +7592,8 @@ _ihm_dataset_list.details
 14 'Comparative model' NO .
 15 'Comparative model' NO .
 16 'Experimental model' YES .
-17 'Experimental model' NO .
+17 'Experimental model' NO
+'earlier pre-publication version was used in this work'
 18 'Mass Spectrometry data' YES .
 19 'CX-MS data' NO .
 20 'CX-MS data' NO .

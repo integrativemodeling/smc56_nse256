@@ -95,8 +95,8 @@ po = IMP.pmi.mmcif.ProtocolOutput()
 bs.system.add_protocol_output(po)
 po.system.title = "Integrative analysis reveals unique structural and functional features of the Smc5/6 complex"
 
-# add publication (TODO)
-#po.system.citations.append(ihm.Citation.from_pubmed_id())
+# add publication
+po.system.citations.append(ihm.Citation.from_pubmed_id(33941673))
 
 t = IMP.pmi.topology.TopologyReader(topology_file=topo_fn,
                                     pdb_dir=os.path.join(datadir, "pdb"),
