@@ -13,7 +13,7 @@ MODELLER_DIR = os.path.join(TOPDIR, "non_cc_comparative_modeling",
                             "smc56_head_MODELLER")
 N_COMPARATIVE_MODELS = 20
 
-INTEGRATIVE_MODELING_DIR = os.path.join(TOPDIR, "ntegrative_modeling")
+INTEGRATIVE_MODELING_DIR = os.path.join(TOPDIR, "integrative_modeling")
 DATADIR = os.path.join(TOPDIR, "data")
 N_WARMUP_MODELS = 20
 N_PRODUCTION_MODELS = 20
