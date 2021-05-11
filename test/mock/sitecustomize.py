@@ -14,7 +14,7 @@ def mock_from_pubmed(cls, pubmed_id):
             pmid=33941673,
             title='Integrative analysis reveals unique structural and '
                   'functional features of the Smc5/6 complex.',
-            journal='Proc Natl Acad Sci U S A', volume=118,
+            journal='Proc Natl Acad Sci U S A', volume=118, page_range=None,
             year=2021, doi='10.1073/pnas.2026844118', authors=[
                 'Yu Y', 'Li S', 'Ser Z', 'Sanyal T', 'Choi K', 'Wan B',
                 'Kuang H', 'Sali A', 'Kentsis A', 'Patel DJ', 'Zhao X'])
