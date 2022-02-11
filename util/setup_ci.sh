@@ -15,6 +15,6 @@ conda config --remove channels defaults
 conda config --add channels conda-forge
 IMP_CONDA="imp"
 
-conda create --yes -q -n python${python_version} -c salilab python=${python_version} matplotlib ${IMP_CONDA}
+conda create --yes -q -n python${python_version} -c salilab python=${python_version} matplotlib pandas ${IMP_CONDA}
 eval "$(conda shell.bash hook)"
 conda activate python${python_version}
