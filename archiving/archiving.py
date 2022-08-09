@@ -315,7 +315,8 @@ e = ihm.model.Ensemble(model_group=mg,
                        num_models=29975,
                        post_process=a.steps[-1],
                        name="Cluster 0",
-                       clustering_method="Density based threshold-clustering",
+                       clustering_method="Other",
+                       details="Density based threshold-clustering",
                        clustering_feature="RMSD",
                        precision=38.97)  # Angstroms
 po.system.ensembles.append(e)
