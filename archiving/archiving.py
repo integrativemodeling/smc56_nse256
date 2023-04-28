@@ -215,7 +215,7 @@ xlr_CDI.add_to_model()
 
 # run a dummy replica exchange
 print("\n\nWARM-UP RUNS\n\n")
-rex1 = IMP.pmi.macros.ReplicaExchange0(m, root_hier,
+rex1 = IMP.pmi.macros.ReplicaExchange(m, root_hier,
                             monte_carlo_sample_objects=dof.get_movers(),
                             global_output_directory="./output_warmup",
                             output_objects=output_objects,
@@ -234,7 +234,7 @@ rex1.execute_macro()
 
 # run replica exchange Monte-Carlo again
 print("\n\nPRODUCTION RUNS\n\n")
-rex2 = IMP.pmi.macros.ReplicaExchange0(m, root_hier,
+rex2 = IMP.pmi.macros.ReplicaExchange(m, root_hier,
                            monte_carlo_sample_objects=dof.get_movers(),
                            global_output_directory="./output",
                            output_objects=output_objects,
