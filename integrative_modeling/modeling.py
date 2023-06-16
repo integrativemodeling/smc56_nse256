@@ -37,6 +37,7 @@ import IMP.pmi.restraints.crosslinking
 
 import RMF
 import IMP.rmf
+import ihm.cross_linkers
 
 # coarse grained resolution for different restraints
 XL_BEAD_RES = 1  # for crosslink restraint
@@ -151,7 +152,8 @@ xlr_intra_DSSO = IMP.pmi.restraints.crosslinking.\
     resolution=XL_BEAD_RES,
     slope=XL_SLOPE,
     label="intra_DSSO",
-    filelabel="intra_DSSO")
+    filelabel="intra_DSSO",
+    linker=ihm.cross_linkers.dsso)
 output_objects.append(xlr_intra_DSSO)
 xlr_intra_DSSO.set_psi_is_sampled(True)
 dof.get_nuisances_from_restraint(xlr_intra_DSSO)
@@ -167,10 +169,20 @@ xlr_inter_DSSO = IMP.pmi.restraints.crosslinking.\
     resolution=XL_BEAD_RES,
     slope=XL_SLOPE,
     label="inter_DSSO",
-    filelabel="inter_DSSO")
+    filelabel="inter_DSSO",
+    linker=ihm.cross_linkers.dsso)
 output_objects.append(xlr_inter_DSSO)
 xlr_inter_DSSO.set_psi_is_sampled(True)
 dof.get_nuisances_from_restraint(xlr_inter_DSSO)
+
+# intra-CDI
+# define an ihm CDI cross_linker object
+# chemical information src: https://en.wikipedia.org/wiki/Carbonyldiimidazole
+cdi_ihm_obj = ihm.ChemDescriptor(auth_name="CDI",
+  chemical_name="1,1'-carbonyldiimidazole",
+  smiles="O=C(N1CNCC1)N2CCNC2",
+  inchi="1S/C7H6N4O/c12-7(10-3-1-8-5-10)11-4-2-9-6-11/h1-6H",
+  inchi_key="PFKFTWBEEFSNDU-UHFFFAOYSA-N")
 
 # intra-CDI
 xldb_CDI = IMP.pmi.io.crosslink.CrossLinkDataBase()
@@ -183,7 +195,7 @@ xlr_CDI = IMP.pmi.restraints.crosslinking.\
     resolution=XL_BEAD_RES,
     slope=XL_SLOPE,
     label="CDI",
-    filelabel="CDI")
+    filelabel="CDI", linker=cdi_ihm_obj)
 output_objects.append(xlr_CDI)
 xlr_CDI.set_psi_is_sampled(True)
 dof.get_nuisances_from_restraint(xlr_CDI)
