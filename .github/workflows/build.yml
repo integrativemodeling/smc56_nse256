@@ -1,5 +1,7 @@
 name: build
 
+permissions: read-all
+
 on:
   push:
   pull_request:
@@ -13,11 +15,11 @@ jobs:
       fail-fast: false
       matrix:
         os: [ubuntu-latest]
-        python-version: ["3.12"]
+        python-version: ["3.13"]
     runs-on: ${{ matrix.os }}
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with:
         submodules: true
     - name: Setup conda and dependencies
