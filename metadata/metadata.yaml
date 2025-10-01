@@ -1,7 +1,7 @@
 title: Smc5/6-Nse2/5/6 complex
 tags: [chemical crosslinks, PMI, ISAMBARD, coiled-coils, cryo-EM, X-ray]
 pmid: 33941673
-accessions: [PDBDEV_00000081]
+accessions: [9A19]
 prereqs: [python/numpy, python/pandas, python/matplotlib, modeller, python/biopython]
 test:
     runtime: 24h
